@@ -15,6 +15,37 @@ public class Rational{
         }
     }
 
+    // getters
+    public int getNum(){
+        return this.num;
+    }
+
+    public int getDenom(){
+        return this.denom;
+    }
+
+    // setters
+    public void setNum(int num){
+        int old_num = this.num;
+        this.num = num;
+        if (!this.pgcdEqualsTo1()){
+            this.num = old_num;
+            throw new ArithmeticException("Error - Fraction non irreductible : " + this);
+        }
+    }
+
+    public void setDenom(int denom){
+        if (denom == 0){
+            throw new IllegalArgumentException("Error - Denominateur should not be equal to zero " + this);
+        }
+        int old_denom = this.denom;
+        this.denom = denom;
+        if (!this.pgcdEqualsTo1()){
+            this.denom = old_denom;
+            throw new ArithmeticException("Error - Fraction non irreductible : " + this);
+        }
+    }
+
     // methode mult
     public void mult(Rational nb2) throws ArithmeticException{
         this.num *= nb2.num;
