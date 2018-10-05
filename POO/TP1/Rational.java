@@ -25,7 +25,7 @@ public class Rational{
     }
 
     // setters
-    public void setNum(int num){
+    public void setNum(int num) throws Exception{
         int old_num = this.num;
         this.num = num;
         if (!this.pgcdEqualsTo1()){
@@ -34,7 +34,7 @@ public class Rational{
         }
     }
 
-    public void setDenom(int denom){
+    public void setDenom(int denom) throws Exception{
         if (denom == 0){
             throw new IllegalArgumentException("Error - Denominateur should not be equal to zero " + this);
         }
@@ -47,7 +47,7 @@ public class Rational{
     }
 
     // methode mult
-    public void mult(Rational nb2) throws ArithmeticException{
+    public void mult(Rational nb2) throws Exception{
         this.num *= nb2.num;
         this.denom *= nb2.denom;
         if (!this.pgcdEqualsTo1()){
@@ -56,7 +56,7 @@ public class Rational{
     }
 
     // methode add
-    public void add(Rational nb2) throws ArithmeticException{
+    public void add(Rational nb2) throws Exception{
         this.num = this.num*nb2.denom + nb2.num*this.denom;
         this.denom = this.denom*nb2.denom;
         if (!this.pgcdEqualsTo1()){

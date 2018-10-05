@@ -8,7 +8,6 @@ public class Vector {
         // pas de partage de référence
         this.tabRational = new Rational[tabRational.length];
         for (int i=0; i<tabRational.length; ++i){
-            // EXCEPTION ICI !!!
             this.tabRational[i] = new Rational(tabRational[i].getNum(),
                                                 tabRational[i].getDenom());
         }
