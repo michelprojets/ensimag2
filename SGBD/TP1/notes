@@ -1,2 +1,5 @@
 sqlplus yoeungm@ensioracle1
 mdp : yoeungm
+
+sqlplus peironel@ensioracle1
+mdp : mdpbdd
