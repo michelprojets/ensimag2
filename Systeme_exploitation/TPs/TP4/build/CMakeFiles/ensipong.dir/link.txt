@@ -1,0 +1,1 @@
+/usr/bin/cc  -g -I/usr/include/SDL -Wall -Werror -std=gnu11    CMakeFiles/ensipong.dir/src/shmem_pong.c.o  -o ensipong -rdynamic -lSDL -lpthread -lrt 
