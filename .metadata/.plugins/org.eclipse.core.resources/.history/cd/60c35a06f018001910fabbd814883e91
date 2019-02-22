@@ -1,0 +1,12 @@
+package fr.ensimag.deca.codegen;
+
+import fr.ensimag.deca.DecacCompiler;
+import fr.ensimag.deca.tree.AbstractExpr;
+
+public class CodeGenIfThenElse {
+
+	public void genCodeIf(DecacCompiler compiler, AbstractExpr cond, ListInst then,
+			ListInst else, int registerNum, int labelNum) {
+		
+	}
+}

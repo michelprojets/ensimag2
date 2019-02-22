@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exemple de formulaire</title>
+    <style>textarea,select {vertical-align: middle}</style>
+  </head>
+  <body>
+    <form action="http://localhost:9090" method="post" accept-charset="UTF-8">
+      <p>Voici un champ prérempli :
+        <input type="text" value="du texte" name="du texte" />
+      </p>
+      <p>Voici un champ sans type, donc par défaut : texte :
+        <input placeholder="Tapez ce que vous voulez, ce champ sera ignoré car il n’a pas de nom." size="70" required /></p>
+      <p>Entrez maintenant un nombre et un texte :
+        <input type="number" value="15" step="12" name="nombre" />
+        <textarea name="du texte" rows="3" cols="70">plein de texte</textarea>
+      </p>
+      <p>Maintenant, <input type="password" name="secret" placeholder="entrez un secret" /> et
+      <label>cochez cette case :
+        <input type="checkbox" name="case" value="oui" />
+      </label>
+      </p>
+      <p> Choix multiples autorisés ici ! (Ctrl-clic par exemple) :
+      <select name="choix" multiple size=5>
+        <option value="prem">Premier choix</option>
+        <option value="sec">Second choix</option>
+        <option value="trois" selected>Choix par défaut</option>
+        <optgroup label="Autres choix">
+          <option value="quat">Choix 4</option>
+          <option value="cinq">Choix 5</option>
+        </optgroup>
+      </select></p>
+      <p>Ne cliquez pas ici :
+      <input type="reset" value="Annuler" /></p>
+      <p><label><input type="radio" name="hop" value="1" /> Veuillez cliquer sur ce texte</label>
+      <label>ou sur celui-ci <input type="radio" name="hop" value="2" /></label></p>
+
+      <input type="hidden" name="schtroumpf" value="grand" />
+
+      <p> Pour envoyer vos réponses, veuillez cliquer
+      <input type="submit" name="bouton" value="ici" /> ou bien
+      <input type="submit" value="là" />
+      <!-- ce bouton-là n’a pas de nom --></p>
+
+    </form>
+  </body>
+</html>

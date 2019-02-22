@@ -1,0 +1,37 @@
+package fr.ensimag.deca.codegen;
+
+import fr.ensimag.deca.DecacCompiler;
+import fr.ensimag.deca.tree.AbstractExpr;
+import fr.ensimag.ima.pseudocode.Label;
+import fr.ensimag.ima.pseudocode.Register;
+import fr.ensimag.ima.pseudocode.instructions.BEQ;
+import fr.ensimag.ima.pseudocode.instructions.BNE;
+import fr.ensimag.ima.pseudocode.instructions.BRA;
+import fr.ensimag.ima.pseudocode.instructions.CMP;
+
+public class CodeGenAnd extends CodeGenOpBool {
+
+	@Override
+	public void genCodeExpr(DecacCompiler compiler, AbstractExpr expr1, 
+											AbstractExpr expr2, AbstractExpr upperOperation,
+											int registerNum, Label label, Label label2) {
+		Label labelEt = new Label("et_" + (new Integer(compiler.getLabelNum()).toString()));
+		compiler.addLabel(labelEt);
+		expr1.codeGenExpr(compiler, upperOperation, registerNum, label, labelEt);
+		compiler.addInstruction(new CMP(0, Register.getR(registerNum)));
+		compiler.incrementLabelNum();
+		compiler.addInstruction(new BNE(new Label("faux_" + 
+						(new Integer(compiler.getLabelNum()).toString()))));
+		compiler.addInstruction(new BRA(label2));
+		compiler.addLabel((new Label("faux_" + 
+				(new Integer(compiler.getLabelNum()).toString()))));
+		expr2.codeGenExpr(compiler, upperOperation, registerNum, label, label2);
+		compiler.addInstruction(new CMP(0, Register.getR(registerNum)));
+//		String[] tab = label.toString().split("_");
+//		Integer num = new Integer(tab[tab.length-1]);
+		//Label label_sinon = new Label("etiquette_sinon_" + num.toString());
+		compiler.addInstruction(new BEQ(label));
+		compiler.addInstruction(new BRA(label2));
+	}
+
+}

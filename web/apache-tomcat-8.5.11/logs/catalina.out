@@ -1,0 +1,362 @@
+06-Feb-2019 14:45:07.124 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.11
+06-Feb-2019 14:45:07.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 10 2017 21:02:52 UTC
+06-Feb-2019 14:45:07.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.11.0
+06-Feb-2019 14:45:07.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Feb-2019 14:45:07.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-862.14.4.el7.x86_64
+06-Feb-2019 14:45:07.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Feb-2019 14:45:07.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_92/jre
+06-Feb-2019 14:45:07.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+06-Feb-2019 14:45:07.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Feb-2019 14:45:07.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+06-Feb-2019 14:45:07.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+06-Feb-2019 14:45:07.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/user/6/yoeungm/ensimag_2/web/apache-tomcat-8.5.11/conf/logging.properties
+06-Feb-2019 14:45:07.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Feb-2019 14:45:07.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Feb-2019 14:45:07.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Feb-2019 14:45:07.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/user/6/yoeungm/ensimag_2/web/apache-tomcat-8.5.11
+06-Feb-2019 14:45:07.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/user/6/yoeungm/ensimag_2/web/apache-tomcat-8.5.11
+06-Feb-2019 14:45:07.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/user/6/yoeungm/ensimag_2/web/apache-tomcat-8.5.11/temp
+06-Feb-2019 14:45:07.142 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/local/lib:/usr/lib64/nvidia:/usr/lib64/openmpi/lib:/usr/local/lib:/usr/lib64/nvidia:/usr/lib64/openmpi/lib::/opt/oracle/lib:/opt/oracle:/usr/lib64/qt48/lib:/opt/oracle/lib:/opt/oracle:/usr/lib64/qt48/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+06-Feb-2019 14:45:07.315 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Feb-2019 14:45:07.330 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Feb-2019 14:45:07.332 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+06-Feb-2019 14:45:07.333 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Feb-2019 14:45:07.333 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 649 ms
+06-Feb-2019 14:45:07.366 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 39 column 37: The value of attribute "password" associated with an element type "user" must not contain the '<' character.
+ org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; The value of attribute "password" associated with an element type "user" must not contain the '<' character.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1438)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:955)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2787)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1477)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:339)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:786)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+06-Feb-2019 14:45:07.369 WARNING [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+ org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; The value of attribute "password" associated with an element type "user" must not contain the '<' character.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1477)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:339)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:786)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+06-Feb-2019 14:45:07.370 SEVERE [main] org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans Exception processing Global JNDI Resources
+ javax.naming.NamingException: The value of attribute "password" associated with an element type "user" must not contain the '<' character.
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:856)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:159)
+	at org.apache.naming.NamingContextBindingsEnumeration.nextElementInternal(NamingContextBindingsEnumeration.java:117)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:71)
+	at org.apache.naming.NamingContextBindingsEnumeration.next(NamingContextBindingsEnumeration.java:34)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:138)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.createMBeans(GlobalResourcesLifecycleListener.java:110)
+	at org.apache.catalina.mbeans.GlobalResourcesLifecycleListener.lifecycleEvent(GlobalResourcesLifecycleListener.java:82)
+	at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:94)
+	at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:395)
+	at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:339)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:786)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+06-Feb-2019 14:45:07.371 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-Feb-2019 14:45:07.371 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.11
+06-Feb-2019 14:45:07.373 SEVERE [main] org.apache.tomcat.util.digester.Digester.fatalError Parse Fatal Error at line 39 column 37: The value of attribute "password" associated with an element type "user" must not contain the '<' character.
+ org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; The value of attribute "password" associated with an element type "user" must not contain the '<' character.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1438)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.scanAttributeValue(XMLScanner.java:955)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanAttribute(XMLDocumentFragmentScannerImpl.java:1548)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanStartElement(XMLDocumentFragmentScannerImpl.java:1320)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2787)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:606)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:510)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:848)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:777)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1477)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+06-Feb-2019 14:45:07.374 WARNING [main] org.apache.naming.NamingContext.lookup Unexpected exception resolving reference
+ org.xml.sax.SAXParseException; lineNumber: 39; columnNumber: 37; The value of attribute "password" associated with an element type "user" must not contain the '<' character.
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.apache.tomcat.util.digester.Digester.parse(Digester.java:1477)
+	at org.apache.catalina.users.MemoryUserDatabase.open(MemoryUserDatabase.java:416)
+	at org.apache.catalina.users.MemoryUserDatabaseFactory.getObjectInstance(MemoryUserDatabaseFactory.java:102)
+	at org.apache.naming.factory.FactoryBase.getObjectInstance(FactoryBase.java:94)
+	at javax.naming.spi.NamingManager.getObjectInstance(NamingManager.java:321)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:839)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+06-Feb-2019 14:45:07.374 SEVERE [main] org.apache.catalina.realm.UserDatabaseRealm.startInternal Exception looking up UserDatabase under key UserDatabase
+ javax.naming.NamingException: The value of attribute "password" associated with an element type "user" must not contain the '<' character.
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:856)
+	at org.apache.naming.NamingContext.lookup(NamingContext.java:173)
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:230)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+
+06-Feb-2019 14:45:07.375 SEVERE [main] org.apache.catalina.realm.CombinedRealm.startInternal Failed to start "org.apache.catalina.realm.UserDatabaseRealm" realm
+ org.apache.catalina.LifecycleException: Failed to start component [Realm[UserDatabaseRealm]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.realm.CombinedRealm.startInternal(CombinedRealm.java:252)
+	at org.apache.catalina.realm.LockOutRealm.startInternal(LockOutRealm.java:120)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:926)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:262)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:422)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:793)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:655)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:355)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:495)
+Caused by: org.apache.catalina.LifecycleException: No UserDatabase component found under key UserDatabase
+	at org.apache.catalina.realm.UserDatabaseRealm.startInternal(UserDatabaseRealm.java:239)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 17 more
+
+06-Feb-2019 14:45:07.422 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/host-manager
+06-Feb-2019 14:45:07.718 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/host-manager has finished in 295 ms
+06-Feb-2019 14:45:07.718 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/examples
+06-Feb-2019 14:45:08.245 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/examples has finished in 527 ms
+06-Feb-2019 14:45:08.245 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/manager
+06-Feb-2019 14:45:08.278 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/manager has finished in 33 ms
+06-Feb-2019 14:45:08.279 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/docs
+06-Feb-2019 14:45:08.297 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/docs has finished in 18 ms
+06-Feb-2019 14:45:08.297 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/ROOT
+06-Feb-2019 14:45:08.316 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/ROOT has finished in 19 ms
+06-Feb-2019 14:45:08.318 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+06-Feb-2019 14:45:08.321 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+06-Feb-2019 14:45:08.322 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 988 ms
+06-Feb-2019 14:49:12.754 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Feb-2019 14:49:12.755 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Feb-2019 14:49:12.807 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+06-Feb-2019 14:49:12.858 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-Feb-2019 14:49:12.889 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Feb-2019 14:49:12.891 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+06-Feb-2019 14:49:12.892 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Feb-2019 14:49:12.893 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+06-Feb-2019 14:49:15.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.11
+06-Feb-2019 14:49:15.308 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 10 2017 21:02:52 UTC
+06-Feb-2019 14:49:15.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.11.0
+06-Feb-2019 14:49:15.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Feb-2019 14:49:15.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-862.14.4.el7.x86_64
+06-Feb-2019 14:49:15.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Feb-2019 14:49:15.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_92/jre
+06-Feb-2019 14:49:15.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+06-Feb-2019 14:49:15.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Feb-2019 14:49:15.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+06-Feb-2019 14:49:15.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+06-Feb-2019 14:49:15.309 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/user/6/yoeungm/ensimag_2/web/apache-tomcat-8.5.11/conf/logging.properties
+06-Feb-2019 14:49:15.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Feb-2019 14:49:15.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Feb-2019 14:49:15.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Feb-2019 14:49:15.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/user/6/yoeungm/ensimag_2/web/apache-tomcat-8.5.11
+06-Feb-2019 14:49:15.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/user/6/yoeungm/ensimag_2/web/apache-tomcat-8.5.11
+06-Feb-2019 14:49:15.310 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/user/6/yoeungm/ensimag_2/web/apache-tomcat-8.5.11/temp
+06-Feb-2019 14:49:15.310 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/local/lib:/usr/lib64/nvidia:/usr/lib64/openmpi/lib:/usr/local/lib:/usr/lib64/nvidia:/usr/lib64/openmpi/lib::/opt/oracle/lib:/opt/oracle:/usr/lib64/qt48/lib:/opt/oracle/lib:/opt/oracle:/usr/lib64/qt48/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+06-Feb-2019 14:49:15.402 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Feb-2019 14:49:15.413 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Feb-2019 14:49:15.415 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+06-Feb-2019 14:49:15.417 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Feb-2019 14:49:15.417 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 355 ms
+06-Feb-2019 14:49:15.438 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-Feb-2019 14:49:15.438 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.11
+06-Feb-2019 14:49:15.445 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/host-manager
+06-Feb-2019 14:49:15.665 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/host-manager has finished in 219 ms
+06-Feb-2019 14:49:15.665 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/examples
+06-Feb-2019 14:49:16.004 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/examples has finished in 339 ms
+06-Feb-2019 14:49:16.004 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/manager
+06-Feb-2019 14:49:16.021 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/manager has finished in 17 ms
+06-Feb-2019 14:49:16.021 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/docs
+06-Feb-2019 14:49:16.033 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/docs has finished in 12 ms
+06-Feb-2019 14:49:16.034 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/ROOT
+06-Feb-2019 14:49:16.046 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/ROOT has finished in 11 ms
+06-Feb-2019 14:49:16.048 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+06-Feb-2019 14:49:16.051 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+06-Feb-2019 14:49:16.052 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 634 ms
+06-Feb-2019 14:50:41.107 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Feb-2019 14:50:41.116 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+06-Feb-2019 14:50:41.116 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-Feb-2019 14:50:41.216 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Feb-2019 14:50:41.241 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+06-Feb-2019 14:50:41.242 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Feb-2019 14:50:41.242 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+06-Feb-2019 14:52:05.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.11
+06-Feb-2019 14:52:05.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 10 2017 21:02:52 UTC
+06-Feb-2019 14:52:05.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.11.0
+06-Feb-2019 14:52:05.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+06-Feb-2019 14:52:05.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-862.14.4.el7.x86_64
+06-Feb-2019 14:52:05.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+06-Feb-2019 14:52:05.361 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_92/jre
+06-Feb-2019 14:52:05.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+06-Feb-2019 14:52:05.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+06-Feb-2019 14:52:05.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+06-Feb-2019 14:52:05.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+06-Feb-2019 14:52:05.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/logging.properties
+06-Feb-2019 14:52:05.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+06-Feb-2019 14:52:05.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+06-Feb-2019 14:52:05.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+06-Feb-2019 14:52:05.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+06-Feb-2019 14:52:05.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+06-Feb-2019 14:52:05.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/temp
+06-Feb-2019 14:52:05.363 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/local/lib:/usr/lib64/nvidia:/usr/lib64/openmpi/lib:/usr/local/lib:/usr/lib64/nvidia:/usr/lib64/openmpi/lib::/opt/oracle/lib:/opt/oracle:/usr/lib64/qt48/lib:/opt/oracle/lib:/opt/oracle:/usr/lib64/qt48/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+06-Feb-2019 14:52:05.535 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+06-Feb-2019 14:52:05.549 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Feb-2019 14:52:05.551 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+06-Feb-2019 14:52:05.552 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+06-Feb-2019 14:52:05.552 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 620 ms
+06-Feb-2019 14:52:05.584 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+06-Feb-2019 14:52:05.584 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.11
+06-Feb-2019 14:52:05.594 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/host-manager
+06-Feb-2019 14:52:05.874 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/host-manager has finished in 279 ms
+06-Feb-2019 14:52:05.874 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/examples
+06-Feb-2019 14:52:06.323 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/examples has finished in 449 ms
+06-Feb-2019 14:52:06.323 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/manager
+06-Feb-2019 14:52:06.353 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/manager has finished in 30 ms
+06-Feb-2019 14:52:06.353 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/docs
+06-Feb-2019 14:52:06.372 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/docs has finished in 19 ms
+06-Feb-2019 14:52:06.373 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/ROOT
+06-Feb-2019 14:52:06.391 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/ROOT has finished in 18 ms
+06-Feb-2019 14:52:06.393 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+06-Feb-2019 14:52:06.397 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+06-Feb-2019 14:52:06.397 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 844 ms
+06-Feb-2019 14:53:01.869 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+06-Feb-2019 14:53:01.870 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+06-Feb-2019 14:53:01.872 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+06-Feb-2019 14:53:01.923 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+06-Feb-2019 14:53:01.960 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+06-Feb-2019 14:53:01.961 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+06-Feb-2019 14:53:01.962 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+06-Feb-2019 14:53:01.962 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

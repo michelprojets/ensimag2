@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="fr.ensimag.ima.pseudocode.instructions.BRA"/>
+<fullyQualifiedTypeName name="fr.ensimag.ima.pseudocode.Register"/>
+<fullyQualifiedTypeName name="fr.ensimag.ima.pseudocode.instructions.CMP"/>
+<fullyQualifiedTypeName name="fr.ensimag.ima.pseudocode.BranchInstruction"/>
+</qualifiedTypeNameHistroy>

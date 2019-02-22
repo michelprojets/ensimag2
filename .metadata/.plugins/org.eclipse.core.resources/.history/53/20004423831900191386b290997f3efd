@@ -1,0 +1,31 @@
+package fr.ensimag.deca.codegen;
+
+import fr.ensimag.deca.DecacCompiler;
+import fr.ensimag.deca.tree.AbstractExpr;
+import fr.ensimag.ima.pseudocode.Label;
+import fr.ensimag.ima.pseudocode.Register;
+import fr.ensimag.ima.pseudocode.instructions.BEQ;
+import fr.ensimag.ima.pseudocode.instructions.BRA;
+import fr.ensimag.ima.pseudocode.instructions.CMP;
+
+public class CodeGenOr extends CodeGenOpBool {
+
+	@Override
+	public void genCodeExpr(DecacCompiler compiler, AbstractExpr expr1, 
+											AbstractExpr expr2, AbstractExpr upperOperation,
+											int registerNum, Label label) {
+		expr1.codeGenExpr(compiler, upperOperation, registerNum, label);
+		compiler.addInstruction(new CMP(0, Register.getR(registerNum)));
+		compiler.incrementLabelNum();
+		compiler.addInstruction(new BEQ(new Label("faux_" + 
+						(new Integer(compiler.getLabelNum()).toString()))));
+		compiler.addInstruction(new BRA(label);
+		compiler.addInstruction(new BEQ(new Label("faux_" + 
+				(new Integer(compiler.getLabelNum()).toString()))));
+		expr2.codeGenExpr(compiler, upperOperation, registerNum, label);
+		compiler.addInstruction(new CMP(0, Register.getR(registerNum)));
+		compiler.addInstruction(new BEQ (finlabel));
+		compiler.addInstruction(BRA (label));
+	}
+
+}

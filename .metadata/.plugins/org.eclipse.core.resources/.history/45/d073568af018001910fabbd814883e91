@@ -1,0 +1,17 @@
+package fr.ensimag.deca.codegen;
+
+import fr.ensimag.deca.DecacCompiler;
+import fr.ensimag.deca.tree.AbstractExpr;
+import fr.ensimag.deca.tree.ListInst;
+import fr.ensimag.ima.pseudocode.Label;
+
+public class CodeGenIfThenElse {
+
+	public void genCodeIf(DecacCompiler compiler, AbstractExpr cond, ListInst thenBranch,
+			ListInst elseBranch, int registerNum, int labelNum) {
+		cond.codeGenExpr(compiler, registerNum, labelNum);
+		compiler.addLabel(new Label("etiquette_si_" + (new Integer(labelNum).toString())));
+		thenBranch.codeGenListInst(compiler);
+		elseBranch.codeGenListInst(compiler);
+	}
+}

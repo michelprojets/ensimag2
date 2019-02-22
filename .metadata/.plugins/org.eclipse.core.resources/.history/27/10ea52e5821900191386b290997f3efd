@@ -1,0 +1,14 @@
+package fr.ensimag.deca.codegen;
+
+import fr.ensimag.deca.DecacCompiler;
+import fr.ensimag.deca.tree.AbstractExpr;
+
+public abstract class CodeGenExpr {
+	
+	public abstract void genCodeExpr(DecacCompiler compiler, 
+			AbstractExpr expr, int registerNum);
+	
+	public abstract void genCodeExpr(DecacCompiler compiler, AbstractExpr expr1, 
+			AbstractExpr expr2, AbstractExpr operation, int registerNum, Label label);
+	
+}

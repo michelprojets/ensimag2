@@ -1,0 +1,60 @@
+package fr.ensimag.deca.codegen;
+
+import fr.ensimag.deca.DecacCompiler;
+import fr.ensimag.deca.tree.AbstractExpr;
+import fr.ensimag.ima.pseudocode.Label;
+import fr.ensimag.ima.pseudocode.Register;
+import fr.ensimag.ima.pseudocode.UnaryInstructionToReg;
+import fr.ensimag.ima.pseudocode.instructions.CMP;
+import fr.ensimag.ima.pseudocode.instructions.LOAD;
+import fr.ensimag.ima.pseudocode.instructions.POP;
+import fr.ensimag.ima.pseudocode.instructions.PUSH;
+
+/**
+ * Class for assembly code generation concerning a general logical comparator
+ *
+ * @author gl19
+ * @date 17/01/2019
+ */
+public abstract class CodeGenOpCmp extends CodeGenDeux {
+	
+	@Override
+	public void genCodeExpr(DecacCompiler compiler, AbstractExpr expr1, 
+							AbstractExpr expr2, int registerNum, 
+								Label label1, Label label2) {
+	    if(registerNum < compiler.getCompilerOptions().getNbRegistre()-1) {
+    		expr1.codeGenExpr(compiler, registerNum, label1, label2);
+            if(expr1.isMethodCall()) {
+                compiler.addInstruction(new LOAD(Register.R0, Register.getR(registerNum)));
+            }
+    		expr2.codeGenExpr(compiler, registerNum+1, label1, label2);
+            if(expr2.isMethodCall()) {
+                compiler.addInstruction(new LOAD(Register.R0, Register.getR(registerNum + 1)));
+            }
+    		compiler.addInstruction(new CMP(Register.getR(registerNum+1), 
+    										Register.getR(registerNum)));
+    		compiler.addInstruction(this.getBranchInstruction(registerNum));
+	    }
+	    else {
+	        expr1.codeGenExpr(compiler, registerNum, label1, label2);
+	        if(expr1.isMethodCall()) {
+	            compiler.addInstruction(new LOAD(Register.R0, Register.getR(registerNum)));
+	        }
+	        compiler.addInstruction(new PUSH(Register.getR(registerNum)));
+	        compiler.incrementalTemporaryNum();
+	        expr2.codeGenExpr(compiler, registerNum, label1, label2);
+	        if(expr2.isMethodCall()) {
+	            compiler.addInstruction(new LOAD(Register.R0, Register.getR(registerNum)));
+	        }
+	        compiler.addInstruction(new LOAD(Register.getR(registerNum), 
+	        											Register.getR(0)));
+	        compiler.addInstruction(new POP(Register.getR(registerNum)));
+	        compiler.addInstruction(new CMP(Register.getR(registerNum), 
+	        								Register.getR(registerNum)));
+	        compiler.addInstruction(this.getBranchInstruction(registerNum));
+	    }
+	}
+	
+	public abstract UnaryInstructionToReg getBranchInstruction(int registerNum);
+
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/mavenproject2">
+<Resource
+   auth="Container"
+   type="javax.sql.DataSource"
+   driverClassName="oracle.jdbc.OracleDriver"
+   url="jdbc:oracle:thin:@ensioracle1.imag.fr:1521:ensioracle1"
+   maxTotal="2"
+   maxIdle="1"
+   maxWaitMillis="20000"
+   name="jdbc/YOEUNGM"
+   password="yoeungm"
+   username="yoeungm"
+/>
+</Context>
