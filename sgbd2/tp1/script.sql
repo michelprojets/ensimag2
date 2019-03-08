@@ -4,7 +4,9 @@ DROP TABLE album CASCADE CONSTRAINT PURGE;
 
 DROP FUNCTION verif_DL;
 DROP FUNCTION verif_photo
-DROP FUNCTION ajoute_photo;
+DROP PROCEDURE ajoute_photo;
+DROP FUNCTION match;
+DROP PROCEDURE set_couverture;
 
 DROP TYPE T_album;
 DROP TYPE NT_photos;
@@ -103,7 +105,8 @@ NOT FINAL;
 /
 show errors;
 
-CREATE OR REPLACE TYPE NT_photos AS table OF T_photo;
+CREATE OR REPLACE TYPE NT_photos AS table OF T_photo
+NOT FINAL;
 /
 show errors;
 
@@ -140,6 +143,40 @@ SELECT A.idalbum, A.titre, F.dimensions
 from fichier F, album A, TABLE(A.photos) P
 where P.chemin = F.chemin
 order by F.dimensions desc;
+
+-- suppression de la table album --
+
+DROP TABLE album;
+
+-- pour la creation du type livre --
+
+CREATE TYPE T_Livre UNDER T_Album(
+  preface varchar(20),
+  postface varchar(20),
+  couverture ref T_photo,
+  MEMBER PROCEDURE set_couverture(num_photo integer)
+)
+NOT FINAL;
+/
+show errors;
+
+-- recreation de la table album --
+
+CREATE TABLE album OF T_album
+  nested table photos store as LesPhotos;
+
+ALTER TABLE album ADD CONSTRAINT pk_album PRIMARY KEY (idalbum);
+
+INSERT INTO album VALUES('1', 'album 1', 'sous titre 1',
+                NT_photos(T_photo('1', 'photo 1', 'commentaire 1', 'chemin 1'),
+                          T_photo('2', 'photo 2', 'commentaire 2', 'chemin 2')));
+
+INSERT INTO album VALUES('2', 'album 2', 'sous titre 2',
+                NT_photos(T_photo('3', 'photo 3', 'commentaire 3', 'chemin 3')));
+
+--------------------------------------------------------------------------------
+-- corps des fonctions et procedures -------------------------------------------
+--------------------------------------------------------------------------------
 
 -- fonction statique obligatoire --
 
@@ -209,6 +246,8 @@ show errors;
 
 commit;
 
+-- procedure (programme) de test ajout de photos --
+
 DECLARE
   al T_Album;
 BEGIN
@@ -220,13 +259,28 @@ END;
 /
 show errors;
 
-DROP TABLE album;
-
-CREATE TYPE T_Livre UNDER T_Album(
-  preface varchar(20),
-  postface varchar(20),
-  couverture ref T_photo
-)
-NOT FINAL;
+CREATE OR REPLACE TYPE BODY T_Livre AS
+  MEMBER PROCEDURE set_couverture(num_photo integer) IS
+  nbp INTEGER;
+  errorFK EXCEPTION;
+  BEGIN
+    select COUNT(P.numPhoto) into nbp
+    from album A, TABLE(A.photos) P
+    where P.numPhoto = num_photo;
+    IF nbp > 0 THEN
+      UPDATE (select TREAT(VALUE(A) AS T_Livre)
+              from album A
+              where A.idalbum = self.idalbum)
+      SET couverture = (select REF(P)
+                        from album A, TABLE(A.photos) P
+                        where P.numPhoto = num_photo);
+    ELSE
+      raise errorFK;
+    END IF;
+  EXCEPTION
+    WHEN errorFK THEN
+    RAISE_APPLICATION_ERROR(-20002, 'Erreur foreign key, photo introuvable');
+  END;
+END;
 /
 show errors;

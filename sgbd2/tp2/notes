@@ -1,0 +1,46 @@
+tables : client / compte (et sa hiérarchie)
+les deux sont des tables objets
+
+association client --possède-- téléphone :
+- état des entités :
+client est une table objet
+téléphone n'est pas matérialisée
+- accès fréquents :
+très majoritairement de client vers téléphone
+- traduction :
+dans ce seul sens
+traduction par collection de valeurs (car pas beaucoup de mise à jour au niveau du tel)
+varray pour la borne sup
+
+association client --estProprietaire-- compte :
+- état des entités :
+client est une table objet
+compte est une table objet
+- accès fréquents :
+très majoritairement de client vers compte
+- traduction :
+traduction par collection de valeurs (car pas beaucoup de mise à jour au niveau des comptes)
+nested table
+
+association client --estSignataire-- cptCourant :
+- état des entités :
+client est une table objet
+cptCourant est une table objet
+- accès fréquents :
+très majoritairement de client vers cptCourant
+- traduction :
+avec propriété d'association
+traduction par collection de références (car pas beaucoup de mise à jour au niveau des cptCourants)
+nested table avec ref
+
+association mouvement --operation-- client --operation-- cptCourant :
+- état des entités :
+mouvement n'est pas matérialisée
+client est une table objet
+cptCourant est une table objet
+- accès fréquents :
+très majoritairement de cptCourant vers mouvement et client
+- traduction :
+avec propriété d'association
+traduction par collection de références (car pas beaucoup de mise à jour)
+nested table avec l'un ref et l'autre val car mouvement n'est pas matérialisée
