@@ -28,7 +28,9 @@ client est une table objet
 cptCourant est une table objet
 - accès fréquents :
 très majoritairement de client vers cptCourant
+et très majoritairement de cptCourant vers client
 - traduction :
+dans les deux sens
 avec propriété d'association
 traduction par collection de références (car pas beaucoup de mise à jour au niveau des cptCourants)
 nested table avec ref

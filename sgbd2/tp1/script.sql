@@ -29,7 +29,7 @@ show errors;
 CREATE TABLE client OF T_client;
 
 ALTER TABLE client ADD CONSTRAINT pk_client PRIMARY KEY (email);
-
+			
 INSERT INTO client VALUES('pierre@gmail.com', 'pierre', 'paul', '1 rue ...', 'aaaaa');
 INSERT INTO client VALUES('jacques@gmail.com', 'jacques', 'david', '2 rue ...', 'bbbbb');
 INSERT INTO client VALUES('patrick@gmail.com', 'patrick', 'jean', '3 rue ...', 'ccccc');
