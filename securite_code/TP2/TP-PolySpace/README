@@ -1,0 +1,75 @@
+SCRIPTS POUR LANCER LES OUTILS :
+
+lance-bug-finder.sh*
+
+    script pour lancer le Bug Finder sur une liste de fichiers
+
+lance-code-prover.sh*
+
+    script pour lancer le Code Prover sur une liste de fichiers
+
+
+ETAPE 1 :  utilisation du code prover
+=====================================
+
+- lancer les exemples, comprendre les couleurs et les explications 
+
+- faire une version robuste de polynome.c (pas de orange, rouge ou gris)
+
+
+ETAPE 2 : Analyse de sécurité  : exemples TD
+=============================================
+
+- Comprendre les résultats avec bug-finder, trouver les vulnérabilités et la manière 
+de les exploiter.
+
+TD-Exercice-1.c 
+TD-Exercice-1-solution.c
+TD-Exercice-5.c
+TD-Exercice-5-solution.c
+
+- Comprendre les erreurs/dangers :
+Pointer-to-stack-variable-leaving-scope.c
+mem-corruption.c 
+
+- Comprendre et corriger
+- malloc-0.c        
+
+
+ETAPE 3 : Analyse de sécurité - IspasswordOK
+==============================================
+
+1) Regarder en détail la spécification de gets :
+      http://www.cplusplus.com/reference/cstdio/gets/
+
+2) Code gets.c : faire tourner le bug finder et comprendre les messages.
+
+3) Tester le programme et trouver une attaque.
+      Rappel : au terminal on peut encoder la fin de fichier par contrôle D
+
+4) Corriger le programme en prenant en compte les cas d'erreurs
+
+5)  On va maintenant remplacer l'appel gets par fgets.
+       Regarder en détail la spécification de fgets :
+       http://www.cplusplus.com/reference/cstdio/fgets/
+
+6) Code fgets.c : faire tourner le bug finder et comprendre les messages.
+
+   7) Corriger le programme
+
+
+
+ETAPE 4 :  Sécurité avancée
+===========================
+
+Comprendre les problèmes
+ 
+Répertoire Advanced-Secu : suivre README
+
+- website-access
+Regarder en priorité les " defects " suivants : Cryptography, Security, Static Memory
+
+La fenêtre Event permet de suivre les causes d'une alerte 
+
+- crypto
+

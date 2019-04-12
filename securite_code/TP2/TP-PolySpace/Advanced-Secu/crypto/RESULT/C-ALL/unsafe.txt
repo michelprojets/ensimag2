@@ -1,0 +1,5 @@
+locals_maybe_read_before_write={rc4_test:ctx, rc4_test_fix_1:len, main:decryptedtext, encrypt_decrypt:ctx,
+                                main:ciphertext, encrypt_decrypt:outputtext_len, encrypt_decrypt:len, rc4_test_fix_5:iv,
+                                rc4_test:len, rc4_test_fix_4:iv, rc4_test_fix_5:ctx, rc4_test_fix_5:len,
+                                rc4_test_fix_3:iv, rc4_test_fix_4:ctx, rc4_test_fix_4:len, rc4_test_fix_3:ctx,
+                                rc4_test_fix_3:len, rc4_test_fix_2:ctx, rc4_test_fix_2:len, rc4_test_fix_1:ctx}

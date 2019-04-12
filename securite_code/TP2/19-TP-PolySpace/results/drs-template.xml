@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--EDRS Version 2.0-->
+<global>
+   <file name="/user/6/.base/yoeungm/home/ensimag_2/securite_code/TP2/19-TP-PolySpace/Source-Etape3/gets.c" comment="">
+      <function name="IsPasswordOK" comment="" line="5" main_generator_called="MAIN_GENERATOR">
+         <scalar name="return" comment="" line="5" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+</global>

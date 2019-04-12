@@ -1,0 +1,441 @@
+<polyspace-bug-finder-nodesktop R2018a PID21694 PGID21694>
+
+Polyspace verification of polyspace project.
+Starting at 12/11/2018, 10h22.
+
+Auto detection of the language to use for Polyspace verification:
+ => According to the source files extension(s), this is a C project.
+If the language selected by Polyspace is not correct, you can change it by using the -lang option.
+
+Warning: WARNING - USE OF AN UNOFFICIAL OPTION
+|        Option -keep-all-files could lead to a large number of results.
+
+Activated checkers: 
+       INT_ZERO_DIV, FLOAT_ZERO_DIV, INT_CONV_OVFL, UINT_CONV_OVFL, SIGN_CHANGE, FLOAT_CONV_OVFL, 
+  INT_OVFL, UINT_OVFL, FLOAT_OVFL, INT_STD_LIB, FLOAT_STD_LIB, SHIFT_NEG, SHIFT_OVFL, 
+  OUT_BOUND_ARRAY, NULL_PTR, OUT_BOUND_PTR, FUNC_CAST, PTR_CAST, MEM_STD_LIB, STR_STD_LIB, 
+  NULL_PTR_ARITH, OBJECT_SIZE_MISMATCH, FREED_PTR, UNPROTECTED_MEMORY_ALLOCATION, 
+  DOUBLE_DEALLOCATION, BAD_FREE, MEM_LEAK, BAD_EQUAL_USE, BAD_EQUAL_EQUAL_USE, DECL_MISMATCH, 
+  BAD_FLOAT_OP, MISSING_NULL_CHAR, QUALIFIER_MISMATCH, PTR_SIZEOF_MISMATCH, TYPEDEF_MISMATCH, 
+  USELESS_WRITE, NON_INIT_VAR, NON_INIT_PTR, VAR_SHADOWING, MISSING_RETURN, RESOURCE_LEAK, 
+  UNREACHABLE, DEAD_CODE, PARTIALLY_ACCESSED_ARRAY, UNCALLED_FUNC, NON_INIT_PTR_CONV, 
+  DEACTIVATED_CODE, USELESS_IF, DEADLOCK, BAD_LOCK, DOUBLE_LOCK, DATA_RACE, DATA_RACE_ALL, 
+  DOUBLE_UNLOCK, BAD_UNLOCK, OTHER_STD_LIB, PASS_BY_VALUE, ASSERT, STRING_FORMAT, 
+  MORE_THAN_ONE_STATEMENT, TAINTED_HOSTID, TAINTED_ENV_VARIABLE, TAINTED_STRING_FORMAT, 
+  PATH_TRAVERSAL, TAINTED_LOOP_BOUNDARY, TAINTED_MEMORY_ALLOC_SIZE, CHROOT_MISUSE, 
+  RETURN_NOT_CHECKED, TOCTOU, TAINTED_PATH_LIB, RELATIVE_PATH_LIB, SENSITIVE_DATA_PRINT, 
+  IMPROPER_ARRAY_INIT, BAD_PTR_SCALING, SIZEOF_MISUSE, HARD_CODED_BUFFER_SIZE, 
+  HARD_CODED_LOOP_BOUNDARY, BAD_NETWORK_CONNECT_ORDER, FLOAT_ABSORPTION, BAD_PLAIN_CHAR_USE, 
+  BITWISE_NEG, LOCAL_ADDR_ESCAPE, PATH_BUFFER_OVERFLOW, STR_FORMAT_BUFFER_OVERFLOW, 
+  STRLIB_BUFFER_OVERFLOW, STRLIB_BUFFER_UNDERFLOW, PUTENV_AUTO_VAR, PTR_TO_DIFF_ARRAY, 
+  WIN_MISMATCH_DEALLOC, ALIGNMENT_CHANGE, READ_ONLY_RESOURCE_WRITE, CLOSED_RESOURCE_USE, 
+  DOUBLE_RESOURCE_CLOSE, DOUBLE_RESOURCE_OPEN, OPERATOR_PRECEDENCE, STD_FUNC_ARG_MISMATCH, 
+  INVALID_MEMORY_ASSUMPTION, CONSTANT_OBJECT_WRITE, MEMSET_INVALID_SIZE, INVALID_VA_LIST_ARG, 
+  NON_POSITIVE_VLA_SIZE, OVERLAPPING_ASSIGN, OVERLAPPING_COPY, BAD_FILE_ACCESS_MODE_STATUS, 
+  WRITE_INTERNAL_BUFFER_RETURNED_FROM_STD_FUNC, MEMSET_INVALID_VALUE, BAD_INT_PTR_CAST, 
+  UNSAFE_STR_TO_NUMERIC, EXIT_ABNORMAL_HANDLER, MEMCMP_FLOAT, MEMCMP_STRINGS, MEMCMP_PADDING_DATA, 
+  NON_REENTRANT_STD_RETURN, INVALID_ENV_POINTER, ERRNO_MISUSE, MISSING_ERRNO_RESET, 
+  CHARACTER_MISUSE, CHAR_EOF_CONFUSED, IO_INTERLEAVING, SIG_HANDLER_COMP_EXCP_RETURN, 
+  SIG_HANDLER_CALLING_SIGNAL, SIG_HANDLER_ASYNC_UNSAFE, SIG_HANDLER_ASYNC_UNSAFE_STRICT, 
+  UNPROTOTYPED_FUNC_CALL, FILE_OBJECT_MISUSE, FLEXIBLE_ARRAY_MEMBER_STRUCT_MISUSE, 
+  SIG_HANDLER_SHARED_OBJECT, MISSING_BYTESWAP, INVALID_FILE_POS, INDETERMINATE_STRING, 
+  MACRO_USED_AS_OBJECT, SIDE_EFFECT_IGNORED, PRE_UCNAME_JOIN_TOKENS, PRE_DIRECTIVE_MACRO_ARG, 
+  INLINE_CONSTRAINT_NOT_RESPECTED, VA_ARG_INCORRECT_TYPE, TOO_MANY_VA_ARG_CALLS, 
+  STREAM_WITH_SIDE_EFFECT, TEMP_OBJECT_ACCESS, SIG_HANDLER_ERRNO_MISUSE, DATA_RACE_STD_LIB, 
+  DESTROY_LOCKED, DANGEROUS_STD_FUNC, BAD_UMASK, DANGEROUS_PERMISSIONS, RAND_SEED_CONSTANT, 
+  RAND_SEED_PREDICTABLE, VULNERABLE_PRNG, FUNC_PTR_ABSOLUTE_ADDR, RELATIVE_PATH_CMD, 
+  NON_SECURE_TEMP_FILE, SENSITIVE_STACK_NOT_CLEARED, SENSITIVE_HEAP_NOT_CLEARED, OBSOLETE_STD_FUNC, 
+  DATA_LENGTH_MISMATCH, UNSAFE_STD_FUNC, UNSAFE_STD_CRYPT, MISSING_SWITCH_CASE, 
+  BAD_PRIVILEGE_DROP_ORDER, MISSING_PRIVILEGE_DROP_CHECK, READLINK_MISUSE, ERRNO_NOT_CHECKED, 
+  FILE_EXPOSURE_TO_CHILD, UNSAFE_SYSTEM_CALL, PADDING_INFO_LEAK, CRYPTO_CIPHER_BAD_FUNCTION, 
+  CRYPTO_CIPHER_NO_ALGORITHM, CRYPTO_CIPHER_NO_KEY, CRYPTO_CIPHER_NO_IV, CRYPTO_CIPHER_NO_DATA, 
+  CRYPTO_CIPHER_NO_FINAL, CRYPTO_CIPHER_WEAK_CIPHER, CRYPTO_CIPHER_WEAK_MODE, 
+  CRYPTO_CIPHER_CONSTANT_KEY, CRYPTO_CIPHER_CONSTANT_IV, CRYPTO_CIPHER_PREDICTABLE_KEY, 
+  CRYPTO_CIPHER_PREDICTABLE_IV, CRYPTO_PKEY_NO_PUBLIC_KEY, CRYPTO_PKEY_NO_PRIVATE_KEY, 
+  CRYPTO_PKEY_NO_PEER, CRYPTO_PKEY_NO_PARAMS, CRYPTO_PKEY_NO_DATA, CRYPTO_PKEY_WEAK_PARAMS, 
+  CRYPTO_RSA_LOW_EXPONENT, CRYPTO_RSA_WEAK_PADDING, CRYPTO_RSA_BAD_PADDING, CRYPTO_RSA_NO_BLINDING, 
+  CRYPTO_PKEY_INCORRECT_KEY, CRYPTO_PKEY_INCORRECT_INIT, CRYPTO_RSA_NO_PADDING, 
+  CRYPTO_MD_WEAK_HASH, CRYPTO_MD_BAD_FUNCTION, CRYPTO_SSL_WEAK_PROTOCOL, TAINTED_PATH_CMD, 
+  TAINTED_EXTERNAL_CMD, TAINTED_VLA_SIZE, TAINTED_INT_MOD, TAINTED_INT_DIVISION, 
+  TAINTED_ARRAY_INDEX, TAINTED_PTR_OFFSET, TAINTED_PTR, TAINTED_STRING, UNUSED_PARAMETER, 
+  HARD_CODED_MEM_SIZE, SETJMP_LONGJMP_USE, BITWISE_ARITH_MIX, MISSING_FREED_PTR_RESET, 
+  MISSING_SWITCH_BREAK
+
+Remark: By default, some results are not generated for headers.
+|       Search for '-generate-results-for' in user documentation to generate results for these headers.
+
+Verifying sources compliance ...
+
+Options used with Verifier:
+-lang=C
+-bug-finder=true
+-prog=polyspace
+-target=i386
+-compiler=generic
+-polyspace-version=2.5 (R2018a)
+-author=potetm
+-verif-version=1.0
+-date=11/12/2018
+
+User:
+-results-dir=/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/website_access/RESULT
+-disable-checkers=[TAINTED_SIGN_CHANGE]
+-checkers=[all]
+-D1=SIXTY_FOUR_BIT_LONG
+-D2=OPENSSL_NO_KRB5
+-to=pass2
+-I1=/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include
+-I2=/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl
+-keep-all-files=true (non-official option)
+
+
+Verifying host configuration:
+Number of cores:                4
+Processor type:                 x86_64
+Processor model:                Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz
+Processor frequency:            899 MHz
+Memory > 4 GB:                  31.19 GB
+Tmp space available in /tmp:    524 MB
+
+Remark: 4 core(s) detected. The verification uses 4 core(s).
+*** Configuration of the host :	OK
+
+Computer memory:
+              total        used        free      shared  buff/cache   available
+Mem:       32712200     1226976    28549932      261528     2935292    30748768
+Swap:       8388604           0     8388604
+
+CentOS Linux release 7.5.1804 (Core) 
+
+Type /matieres/4MMACSS/TP-PolySpace/Advanced-Secu/website_access/RESULT/kill-rte-kernel on host ensipc630 to halt Verifier process
+
+
+Checking license ...
+
+	Classroom License -- for classroom instructional use only.
+
+
+
+	Classroom License -- for classroom instructional use only.
+
+
+License is OK
+
+
+Polyspace C analysis
+Copyright 1999-2018 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Tue Dec 11 10:22:14 2018
+Host: Linux ensipc630 3.10.0-862.14.4.el7.x86_64 x86_64
+User: potetm
+**********************************************************
+***
+*** Verifying C sources
+***
+**********************************************************
+
+Verifying sources ...
+Verifying website_access.c (1/1)
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/e_os2.h, line 56: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/e_os2.h, line 56: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/e_os2.h, line 56: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/e_os2.h, line 56: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/e_os2.h, line 56: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/e_os2.h, line 56: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/evp.h, line 66: warning: could not find include file "openssl/opensslconf.h"
+|  # include <openssl/opensslconf.h>
+|                                   ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/e_os2.h, line 56: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/e_os2.h, line 56: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/ec.h, line 79: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/ecdsa.h, line 62: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/ecdh.h, line 72: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/e_os2.h, line 56: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/e_os2.h, line 56: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/e_os2.h, line 56: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/x509_vfy.h, line 68: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/e_os2.h, line 56: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/e_os2.h, line 56: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/e_os2.h, line 56: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/hmac.h, line 61: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/kssl.h, line 66: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/e_os2.h, line 56: warning: could not find include file "openssl/opensslconf.h"
+|  #include <openssl/opensslconf.h>
+|                                  ^
+
+Global compilation phase...
+
+Number of files                  : 1
+Number of lines                  : 319
+Number of lines without comments : 219
+
+Verifying cross-files ANSI C compliance
+
+Stubbing standard library functions ...
+Remark: The generated default DRS XML file "drs-template.xml" can be found in <result_dir> folder.
+Doing code transformations ...
+
+
+
+
+Packing compilation data
+
+Defects statistics:
+  - Total number of defects: 4
+  - HARD_CODED_BUFFER_SIZE: 4
+done.
+
+**********************************************************
+***
+*** C sources verification done
+***
+**********************************************************
+Ending at: Tue Dec 11 10:22:17 2018
+User time for compilation: 00:00:03.73 (3.73real, 1.79u + 0.43s (0.04gc))
+
+Polyspace C analysis
+Copyright 1999-2018 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Tue Dec 11 10:22:17 2018
+Host: Linux ensipc630 3.10.0-862.14.4.el7.x86_64 x86_64
+User: potetm
+**********************************************************
+***
+*** Beginning Bug-finder - Pre-analysis
+***
+**********************************************************
+**** Bug-finder - Pre-analysis - 1 (P_AL)
+Total complexity = 8360
+**** Bug-finder - Pre-analysis - 1 (P_AL) took 0.29real, 0.2u + 0.02s (0.07gc)
+**** Bug-finder - Pre-analysis - 2 (P_ACP)
+* n-acp-t = 0 n-epp' = 0 n-acp-l = 0
+**** Bug-finder - Pre-analysis - 2 (P_ACP) took 0.01real, 0.01u + 0s
+**** Bug-finder - Pre-analysis - 3 (P_O)
+**** Bug-finder - Pre-analysis - 3 (P_O) took 0.01real, 0.01u + 0s
+**** Bug-finder - Pre-analysis - 4 (P_MA)
+**** Bug-finder - Pre-analysis - 4 (P_MA) took 0.04real, 0.03u + 0s (0.02gc)
+**** Bug-finder - Pre-analysis - 5 (P_G)
+**** Bug-finder - Pre-analysis - 5 (P_G) took 0.02real, 0.01u + 0s
+**** Bug-finder - Pre-analysis - 6 (P_DLC)
+**** Bug-finder - Pre-analysis - 6 (P_DLC) took 0real, 0u + 0s
+**** Bug-finder - Pre-analysis - 7 (P_DRC)
+**** Bug-finder - Pre-analysis - 7 (P_DRC) took 0real, 0u + 0s
+**** Bug-finder - Pre-analysis - 8 (P_TT)
+**** Bug-finder - Pre-analysis - 8 (P_TT) took 0real, 0u + 0s
+**** Bug-finder - Pre-analysis - 9 (P_FI)
+**** Bug-finder - Pre-analysis - 9 (P_FI) took 0.2real, 0.07u + 0.01s (0.02gc)
+
+Generating GUI files
+
+Defects statistics:
+  - Total number of defects: 5
+  - RESOURCE_LEAK: 1
+  - HARD_CODED_BUFFER_SIZE: 4
+
+GUI files generation completed in 0.26real
+
+**********************************************************
+***
+*** Bug-finder - Pre-analysis done
+***
+**********************************************************
+Ending at: Tue Dec 11 10:22:19 2018
+User time for pre-analysis: 00:00:01.43 (1.43real, 0.7u + 0.13s (0.04gc))
+
+Polyspace C analysis
+Copyright 1999-2018 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Tue Dec 11 10:22:19 2018
+Host: Linux ensipc630 3.10.0-862.14.4.el7.x86_64 x86_64
+User: potetm
+**********************************************************
+***
+*** Beginning Bug-finder - Function Analysis
+***
+**********************************************************
+**** Bug-finder - Function Analysis - (Verifying function #1 / 5: DownloadURLFile)
+**** Bug-finder - Function Analysis - (Verifying function #2 / 5: close)
+**** Bug-finder - Function Analysis - (Verifying function #3 / 5: hostname_to_ip)
+**** Bug-finder - Function Analysis - (Verifying function #4 / 5: main)
+**** Bug-finder - Function Analysis - (Verifying function #5 / 5: url_to_host)
+**** Bug-finder - Function Analysis - (Verifying function #2 / 5: close) took 0.69real
+**** Bug-finder - Function Analysis - (Verifying function #4 / 5: main) took 0.8real
+**** Bug-finder - Function Analysis - (Verifying function #3 / 5: hostname_to_ip) took 1.05real
+**** Bug-finder - Function Analysis - (Verifying function #1 / 5: DownloadURLFile) took 1.95real
+**** Bug-finder - Function Analysis - (Verifying function #5 / 5: url_to_host) took 1.51real
+
+Generating GUI files
+
+Defects statistics:
+  - Total number of defects: 20
+  - TAINTED_STRING: 1
+  - USELESS_WRITE: 3
+  - OBSOLETE_STD_FUNC: 1
+  - CRYPTO_SSL_WEAK_PROTOCOL: 1
+  - UNSAFE_STR_TO_NUMERIC: 2
+  - RETURN_NOT_CHECKED: 6
+  - PTR_TO_DIFF_ARRAY: 1
+  - RESOURCE_LEAK: 1
+  - HARD_CODED_BUFFER_SIZE: 4
+
+GUI files generation completed in 0.28real
+
+* Total IL complexity: 10750
+
+**********************************************************
+***
+*** Bug-finder - Function Analysis done
+***
+**********************************************************
+Ending at: Tue Dec 11 10:22:22 2018
+User time for function: 00:00:03.31 (3.31real, 5.5u + 0.47s (0.04gc))
+
+Polyspace C analysis
+Copyright 1999-2018 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Tue Dec 11 10:22:22 2018
+Host: Linux ensipc630 3.10.0-862.14.4.el7.x86_64 x86_64
+User: potetm
+**********************************************************
+***
+*** Beginning Bug-finder - Module Analysis
+***
+**********************************************************
+**** Bug-finder - Module Analysis - 1 (Computing modules)
+* Created 1 module
+**** Bug-finder - Module Analysis - 1 (Computing modules) took 0.05real, 0.01u + 0s (0gc)
+**** Bug-finder - Module Analysis - (Verifying module #1 / 1: 5 functions)
+**** Bug-finder - Module Analysis - (Verifying module #1 / 1: 5 functions) took 2.04real
+
+Generating GUI files
+
+Defects statistics:
+  - Total number of defects: 22
+  - TAINTED_STRING: 1
+  - USELESS_WRITE: 3
+  - OBSOLETE_STD_FUNC: 1
+  - CRYPTO_SSL_WEAK_PROTOCOL: 1
+  - UNSAFE_STR_TO_NUMERIC: 2
+  - RETURN_NOT_CHECKED: 7
+  - PTR_TO_DIFF_ARRAY: 2
+  - RESOURCE_LEAK: 1
+  - HARD_CODED_BUFFER_SIZE: 4
+
+GUI files generation completed in 0.3real
+
+**********************************************************
+***
+*** Bug-finder - Module Analysis done
+***
+**********************************************************
+Ending at: Tue Dec 11 10:22:25 2018
+User time for module: 00:00:02.59 (2.59real, 2.09u + 0.13s (0.03gc))
+
+Polyspace C analysis
+Copyright 1999-2018 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Tue Dec 11 10:22:25 2018
+Host: Linux ensipc630 3.10.0-862.14.4.el7.x86_64 x86_64
+User: potetm
+**********************************************************
+***
+*** Beginning Bug-finder - Global analysis
+***
+**********************************************************
+**** Bug-finder - Global analysis - 1 (P_CCG)
+**** Bug-finder - Global analysis - 1 (P_CCG) took 0real, 0u + 0s
+
+Generating GUI files
+
+Defects statistics:
+  - Total number of defects: 22
+  - TAINTED_STRING: 1
+  - USELESS_WRITE: 3
+  - OBSOLETE_STD_FUNC: 1
+  - CRYPTO_SSL_WEAK_PROTOCOL: 1
+  - UNSAFE_STR_TO_NUMERIC: 2
+  - RETURN_NOT_CHECKED: 7
+  - PTR_TO_DIFF_ARRAY: 2
+  - RESOURCE_LEAK: 1
+  - HARD_CODED_BUFFER_SIZE: 4
+
+GUI files generation completed in 0.3real
+
+**********************************************************
+***
+*** Bug-finder - Global analysis done
+***
+**********************************************************
+Ending at: Tue Dec 11 10:22:25 2018
+User time for global: 00:00:00.51 (0.51real, 0.22u + 0.06s (0.02gc))
+User time for polyspace-bug-finder-nodesktop: 00:00:11.92 (11.92real, 10.38u + 1.26s (0.17gc))
+
+***
+*** End of Polyspace analysis
+***

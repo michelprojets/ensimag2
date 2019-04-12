@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--EDRS Version 2.0-->
+<global>
+   <file name="/matieres/4MMACSS/TP-PolySpace/Secu-examples/Pointer-to-stack-variable-leaving-scope.c" comment="">
+      <function name="Add1" comment="" line="2" main_generator_called="MAIN_GENERATOR"/>
+      <function name="Add2" comment="" line="5" main_generator_called="MAIN_GENERATOR"/>
+      <function name="entry_A" comment="" line="8" main_generator_called="MAIN_GENERATOR"/>
+      <function name="entry_B" comment="" line="12" main_generator_called="MAIN_GENERATOR"/>
+      <pointer name="pGlobalList" comment="" line="1" complete_type="int32 *" init_mode="MAIN_GENERATOR" init_modes_allowed="11" initialize_pointer="Not NULL" number_allocated="max" init_pointed="MAIN_GENERATOR">
+         <scalar comment="" line="1" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </pointer>
+   </file>
+</global>

@@ -1,0 +1,35 @@
+Contenu
+=======
+Ce repertoire contient
+(a) include contient OpenSSL include pour TP seulement, ne pas diffuser/installer
+
+(b) Exemple crypto sur crypto. symetrique, cet exemple contient
+    les defauts de algo., mode chainage, IV et cle constant.
+    La premiere partie est un exo sur les etapes a suivre pour corriger les defauts de algo.,
+    mode chainage, IV.
+    La seconde partie comporte un exemple reel que vous devez corriger.
+
+    Vous pouvez compiler et excuter cet exemple
+    gcc -o symmetric_cipher symmetric_cipher.c -lssl -lcrypto
+    Run plusieur fois l'executable, le meme CipherText est affiche' - la consequence
+    du mode chainage et de l'absence de IV.
+
+(c) Exemple website_access est un sniffer de website. Il contient
+    un defaut CRYPTO_SSL_WEAK_PROTOCOL et d'autres defauts security
+    Vous pouvez compiler et excuter cet exemple
+    gcc -o website_access website_access.c -lssl -lcrypto
+    meme utiliser valgrind sur un run
+        valgrind --leak-check=full website_access https://www.hp.com
+
+(d) le script 'polyspace_verif' est fourni dans chaque repertoir permettant lancer
+    Polyspace Bug Finder (la version R2018a est exigee).
+    Le repertoire RESULT est cree' une le script est lance'.
+
+Pour commencer
+==============
+Avant de faire tourner Polyspace, positionner PATH
+export PATH=<install_folder>/matlab/polyspace/bin:$PATH
+taper
+        which polyspace-bug-finder-nodesktop
+pour etre sure qu'on trouve le script
+       polyspace-bug-finder-nodesktop

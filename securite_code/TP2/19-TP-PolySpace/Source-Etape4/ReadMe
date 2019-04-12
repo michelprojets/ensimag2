@@ -1,0 +1,15 @@
+Contenu
+=======
+Ce repertoire contient
+(a) include contient OpenSSL include pour TP seulement, ne pas diffuser/installer
+
+(b) Exemple crypto sur crypto. symetrique, cet exemple contient
+    les defauts de algo., mode chainage, IV et cle constant.
+    La premiere partie est un exo sur les etapes a suivre pour corriger les defauts de algo.,
+    mode chainage, IV.
+    La seconde partie comporte un exemple reel que vous devez corriger.
+
+    Vous pouvez compiler et excuter cet exemple
+    gcc -o symmetric_cipher symmetric_cipher.c -lssl -lcrypto
+    Run plusieur fois l'executable, le meme CipherText est affiche' - la consequence
+    du mode chainage et de l'absence de IV.

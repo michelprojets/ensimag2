@@ -1,0 +1,165 @@
+<polyspace-bug-finder R2019a PID3864 PGID3864>
+
+Polyspace verification of polyspace project.
+Starting at 04/10/2019, 16h01.
+
+Remark: Option -stubbed-pointers-are-unsafe has no effect in Polyspace Bug
+|       Finder
+Warning: Results directory is full: /user/6/.base/yoeungm/home/ensimag_2/securite_code/TP2/19-TP-PolySpace/results
+
+Activated checkers: 
+       INT_ZERO_DIV, FLOAT_ZERO_DIV, INT_CONV_OVFL, UINT_CONV_OVFL, SIGN_CHANGE, FLOAT_CONV_OVFL, 
+  INT_OVFL, UINT_OVFL, FLOAT_OVFL, INT_STD_LIB, FLOAT_STD_LIB, SHIFT_NEG, SHIFT_OVFL, 
+  OUT_BOUND_ARRAY, NULL_PTR, OUT_BOUND_PTR, FUNC_CAST, PTR_CAST, MEM_STD_LIB, STR_STD_LIB, 
+  NULL_PTR_ARITH, OBJECT_SIZE_MISMATCH, FREED_PTR, UNPROTECTED_MEMORY_ALLOCATION, 
+  DOUBLE_DEALLOCATION, BAD_FREE, MEM_LEAK, BAD_EQUAL_USE, BAD_EQUAL_EQUAL_USE, DECL_MISMATCH, 
+  BAD_FLOAT_OP, MISSING_NULL_CHAR, QUALIFIER_MISMATCH, PTR_SIZEOF_MISMATCH, TYPEDEF_MISMATCH, 
+  USELESS_WRITE, NON_INIT_VAR, NON_INIT_PTR, VAR_SHADOWING, MISSING_RETURN, RESOURCE_LEAK, 
+  UNREACHABLE, DEAD_CODE, PARTIALLY_ACCESSED_ARRAY, UNCALLED_FUNC, NON_INIT_PTR_CONV, 
+  DEACTIVATED_CODE, USELESS_IF, DEADLOCK, BAD_LOCK, DOUBLE_LOCK, DATA_RACE, DATA_RACE_ALL, 
+  DOUBLE_UNLOCK, BAD_UNLOCK, OTHER_STD_LIB, PASS_BY_VALUE, ASSERT, STRING_FORMAT, TAINTED_HOSTID, 
+  TAINTED_ENV_VARIABLE, TAINTED_STRING_FORMAT, PATH_TRAVERSAL, TAINTED_LOOP_BOUNDARY, 
+  TAINTED_MEMORY_ALLOC_SIZE, CHROOT_MISUSE, RETURN_NOT_CHECKED, TOCTOU, TAINTED_PATH_LIB, 
+  RELATIVE_PATH_LIB, SENSITIVE_DATA_PRINT, IMPROPER_ARRAY_INIT, BAD_PTR_SCALING, SIZEOF_MISUSE, 
+  BAD_NETWORK_CONNECT_ORDER, INT_CONSTANT_OVFL, UINT_CONSTANT_OVFL, FLOAT_ABSORPTION, 
+  BAD_PLAIN_CHAR_USE, BITWISE_NEG, INT_PRECISION_EXCEEDED, INVALID_OPERATION_ON_BOOLEAN, 
+  INT_TO_FLOAT_PRECISION_LOSS, LOCAL_ADDR_ESCAPE, PATH_BUFFER_OVERFLOW, STR_FORMAT_BUFFER_OVERFLOW, 
+  STRLIB_BUFFER_OVERFLOW, STRLIB_BUFFER_UNDERFLOW, PUTENV_AUTO_VAR, PTR_TO_DIFF_ARRAY, 
+  WIN_MISMATCH_DEALLOC, ALIGNMENT_CHANGE, READ_ONLY_RESOURCE_WRITE, CLOSED_RESOURCE_USE, 
+  DOUBLE_RESOURCE_CLOSE, DOUBLE_RESOURCE_OPEN, OPERATOR_PRECEDENCE, STD_FUNC_ARG_MISMATCH, 
+  INVALID_MEMORY_ASSUMPTION, CONSTANT_OBJECT_WRITE, MEMSET_INVALID_SIZE, INVALID_VA_LIST_ARG, 
+  NON_POSITIVE_VLA_SIZE, OVERLAPPING_ASSIGN, OVERLAPPING_COPY, BAD_FILE_ACCESS_MODE_STATUS, 
+  WRITE_INTERNAL_BUFFER_RETURNED_FROM_STD_FUNC, MEMSET_INVALID_VALUE, BAD_INT_PTR_CAST, 
+  UNSAFE_STR_TO_NUMERIC, EXIT_ABNORMAL_HANDLER, MEMCMP_FLOAT, MEMCMP_STRINGS, MEMCMP_PADDING_DATA, 
+  NON_REENTRANT_STD_RETURN, INVALID_ENV_POINTER, ERRNO_MISUSE, MISSING_ERRNO_RESET, 
+  CHARACTER_MISUSE, CHAR_EOF_CONFUSED, IO_INTERLEAVING, SIG_HANDLER_COMP_EXCP_RETURN, 
+  SIG_HANDLER_CALLING_SIGNAL, SIG_HANDLER_ASYNC_UNSAFE, SIG_HANDLER_ASYNC_UNSAFE_STRICT, 
+  UNPROTOTYPED_FUNC_CALL, FILE_OBJECT_MISUSE, FLEXIBLE_ARRAY_MEMBER_STRUCT_MISUSE, 
+  SIG_HANDLER_SHARED_OBJECT, MISSING_BYTESWAP, INVALID_FILE_POS, INDETERMINATE_STRING, 
+  MACRO_USED_AS_OBJECT, SIDE_EFFECT_IGNORED, PRE_UCNAME_JOIN_TOKENS, PRE_DIRECTIVE_MACRO_ARG, 
+  INLINE_CONSTRAINT_NOT_RESPECTED, VA_ARG_INCORRECT_TYPE, TOO_MANY_VA_ARG_CALLS, 
+  STREAM_WITH_SIDE_EFFECT, TEMP_OBJECT_ACCESS, SIG_HANDLER_ERRNO_MISUSE, NARROW_WIDE_STR_MISUSE, 
+  SIDE_EFFECT_IN_UNSAFE_MACRO_ARG, VA_START_MISUSE, VA_START_INCORRECT_TYPE, DATA_RACE_STD_LIB, 
+  DESTROY_LOCKED, BLOCKING_WHILE_LOCKED, SIGNAL_USE_IN_MULTITHREADED_PROGRAM, 
+  THREAD_KILLED_WITH_SIGNAL, ATOMIC_VAR_ACCESS_TWICE, ATOMIC_VAR_SEQUENCE_NOT_ATOMIC, 
+  SPURIOUS_WAKEUP_NOT_WRAPPED_IN_LOOP, SPURIOUS_FAILURE_NOT_WRAPPED_IN_LOOP, THREAD_MEM_LEAK, 
+  DANGEROUS_STD_FUNC, BAD_UMASK, DANGEROUS_PERMISSIONS, RAND_SEED_CONSTANT, RAND_SEED_PREDICTABLE, 
+  VULNERABLE_PRNG, FUNC_PTR_ABSOLUTE_ADDR, RELATIVE_PATH_CMD, NON_SECURE_TEMP_FILE, 
+  SENSITIVE_STACK_NOT_CLEARED, SENSITIVE_HEAP_NOT_CLEARED, OBSOLETE_STD_FUNC, DATA_LENGTH_MISMATCH, 
+  UNSAFE_STD_FUNC, UNSAFE_STD_CRYPT, MISSING_SWITCH_CASE, BAD_PRIVILEGE_DROP_ORDER, 
+  MISSING_PRIVILEGE_DROP_CHECK, READLINK_MISUSE, ERRNO_NOT_CHECKED, FILE_EXPOSURE_TO_CHILD, 
+  UNSAFE_SYSTEM_CALL, PADDING_INFO_LEAK, INAPPROPRIATE_IO_ON_DEVICE, CRYPTO_CIPHER_BAD_FUNCTION, 
+  CRYPTO_CIPHER_NO_ALGORITHM, CRYPTO_CIPHER_NO_KEY, CRYPTO_CIPHER_NO_IV, CRYPTO_CIPHER_NO_DATA, 
+  CRYPTO_CIPHER_NO_FINAL, CRYPTO_CIPHER_WEAK_CIPHER, CRYPTO_CIPHER_WEAK_MODE, 
+  CRYPTO_CIPHER_CONSTANT_KEY, CRYPTO_CIPHER_CONSTANT_IV, CRYPTO_CIPHER_PREDICTABLE_KEY, 
+  CRYPTO_CIPHER_PREDICTABLE_IV, CRYPTO_PKEY_NO_PUBLIC_KEY, CRYPTO_PKEY_NO_PRIVATE_KEY, 
+  CRYPTO_PKEY_NO_PEER, CRYPTO_PKEY_NO_PARAMS, CRYPTO_PKEY_NO_DATA, CRYPTO_PKEY_WEAK_PARAMS, 
+  CRYPTO_RSA_LOW_EXPONENT, CRYPTO_RSA_WEAK_PADDING, CRYPTO_RSA_BAD_PADDING, CRYPTO_RSA_NO_BLINDING, 
+  CRYPTO_PKEY_INCORRECT_KEY, CRYPTO_PKEY_INCORRECT_INIT, CRYPTO_RSA_NO_PADDING, 
+  CRYPTO_MD_WEAK_HASH, CRYPTO_MD_BAD_FUNCTION, CRYPTO_SSL_WEAK_PROTOCOL, TAINTED_SIGN_CHANGE, 
+  TAINTED_PATH_CMD, TAINTED_EXTERNAL_CMD, TAINTED_VLA_SIZE, TAINTED_INT_MOD, TAINTED_INT_DIVISION, 
+  TAINTED_ARRAY_INDEX, TAINTED_PTR_OFFSET, TAINTED_PTR, TAINTED_STRING, UNUSED_PARAMETER, 
+  HARD_CODED_MEM_SIZE, SETJMP_LONGJMP_USE, BITWISE_ARITH_MIX, MISSING_FREED_PTR_RESET, 
+  MISSING_SWITCH_BREAK, FLEXIBLE_ARRAY_MEMBER_INCORRECT_SIZE
+
+
+Verifying sources compliance ...
+
+Options used with Verifier:
+-prog=polyspace
+-lang=C
+-target=i386
+-compiler=generic
+-polyspace-version=3.0 (R2019a)
+-author=yoeungm
+-verif-version=1.0
+-results-dir=/user/6/.base/yoeungm/home/ensimag_2/securite_code/TP2/19-TP-PolySpace/results
+-date=10/04/2019
+
+User:
+-disable-checkers=[HARD_CODED_BUFFER_SIZE,HARD_CODED_LOOP_BOUNDARY,MORE_THAN_ONE_STATEMENT]
+-checkers=[all]
+
+
+Verifying host configuration:
+Number of cores:                4
+Processor type:                 x86_64
+Processor model:                Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz
+Processor frequency:            1600 MHz
+Memory > 4 GB:                  31.19 GB
+Tmp space available in /tmp:    520 MB
+
+Remark: 4 core(s) detected. The verification creates 4 process(es).
+*** Configuration of the host :	OK
+
+Computer memory:
+              total        used        free      shared  buff/cache   available
+Mem:       32711664     2376712    27094360      340216     3240592    29566664
+Swap:       8388604           0     8388604
+
+CentOS Linux release 7.6.1810 (Core) 
+
+Type /user/6/.base/yoeungm/home/ensimag_2/securite_code/TP2/19-TP-PolySpace/results/kill-rte-kernel on host ensipc615 to halt Verifier process
+
+
+Checking license ...
+
+	Trial License -- for use to evaluate programs for possible purchase as an end-user only.
+
+
+License is OK
+
+
+Polyspace C analysis
+Copyright 1999-2019 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Wed Apr 10 16:01:57 2019
+Host: Linux ensipc615 3.10.0-957.5.1.el7.x86_64 x86_64
+User: yoeungm
+**********************************************************
+***
+*** Verifying C sources
+***
+**********************************************************
+
+Verifying sources ...
+Verifying optim_compil.c (1/1)
+/user/6/.base/yoeungm/home/ensimag_2/securite_code/TP2/19-TP-PolySpace/Source-Etape2/optim_compil.c, line 13: error: expected an expression
+|     if (a > 0x7fffffffL - b) || b > 0x7fffffffL - a){
+|                              ^
+
+/user/6/.base/yoeungm/home/ensimag_2/securite_code/TP2/19-TP-PolySpace/Source-Etape2/optim_compil.c, line 16: error: expected a ";"
+|     else {
+|     ^
+
+2 errors detected in the compilation of "optim_compil.c".
+/user/6/.base/yoeungm/home/ensimag_2/securite_code/TP2/19-TP-PolySpace/Source-Etape2/optim_compil.c: warning: Failed compilation.
+Global compilation phase...
+
+Packing compilation data
+
+Defects statistics:
+  - Total number of defects: 0
+done.
+
+**********************************************************
+***
+*** C sources verification done
+***
+**********************************************************
+Ending at: Wed Apr 10 16:01:59 2019
+User time for compilation: 00:00:01.23 (1.23real, 0.5u + 0.15s (0.01gc))
+
+
+-------------------------------------------------------------------
+---                                                             ---
+---  Verifier has detected compilation error(s) in the code.    ---
+---  Please correct them and launch the analysis again.         ---
+---                                                             ---
+-------------------------------------------------------------------
+
+
+Failure at: Wed Apr 10 16:01:59 2019
+Error: Exiting because of previous error
+User time for polyspace-bug-finder: 00:00:01.70 (1.7real, 0.64u + 0.2s (0.02gc))

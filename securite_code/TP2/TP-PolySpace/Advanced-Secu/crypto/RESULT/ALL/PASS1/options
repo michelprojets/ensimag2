@@ -1,0 +1,20 @@
+# encoding:UTF-8
+-lang=C
+-bug-finder=true
+-prog=polyspace
+-target=i386
+-compiler=generic
+-polyspace-version=2.5 (R2018a)
+-author=potetm
+-verif-version=1.0
+-date=11/12/2018
+-to=global-analysis
+-results-dir=/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/crypto/RESULT
+-disable-checkers=[tainted_data]
+-checkers=[all]
+-D1=SIXTY_FOUR_BIT_LONG
+-D2=OPENSSL_NO_KRB5
+-I1=/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include
+-I2=/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl
+-keep-all-files=true (non-official option)
+

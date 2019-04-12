@@ -1,0 +1,108 @@
+27-Mar-2019 15:05:18.509 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.11
+27-Mar-2019 15:05:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 10 2017 21:02:52 UTC
+27-Mar-2019 15:05:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.11.0
+27-Mar-2019 15:05:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+27-Mar-2019 15:05:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-957.5.1.el7.x86_64
+27-Mar-2019 15:05:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+27-Mar-2019 15:05:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_92/jre
+27-Mar-2019 15:05:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+27-Mar-2019 15:05:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+27-Mar-2019 15:05:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+27-Mar-2019 15:05:18.512 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+27-Mar-2019 15:05:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/logging.properties
+27-Mar-2019 15:05:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+27-Mar-2019 15:05:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|ensipc261
+27-Mar-2019 15:05:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+27-Mar-2019 15:05:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+27-Mar-2019 15:05:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+27-Mar-2019 15:05:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+27-Mar-2019 15:05:18.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/temp
+27-Mar-2019 15:05:18.513 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/latest/jre/lib/amd64:/usr/java/latest/jre/lib/i386:/usr/local/lib:/usr/lib64/nvidia:/usr/lib64/openmpi/lib:/usr/local/lib:/opt/rh/llvm-toolset-7/root/usr/lib64:/opt/rh/devtoolset-8/root/usr/lib64:/opt/rh/devtoolset-8/root/usr/lib:/opt/rh/devtoolset-8/root/usr/lib64/dyninst:/opt/rh/devtoolset-8/root/usr/lib/dyninst:/opt/rh/devtoolset-8/root/usr/lib64:/opt/rh/devtoolset-8/root/usr/lib:/usr/lib64/nvidia:/usr/lib64/openmpi/lib::/opt/oracle/lib:/opt/oracle:/usr/lib64/qt48/lib:/opt/oracle/lib:/opt/oracle:/usr/lib64/qt48/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+27-Mar-2019 15:05:18.641 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+27-Mar-2019 15:05:18.654 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Mar-2019 15:05:18.656 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2019 15:05:18.657 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+27-Mar-2019 15:05:18.664 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 464 ms
+27-Mar-2019 15:05:18.712 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+27-Mar-2019 15:05:18.712 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.11
+27-Mar-2019 15:05:18.747 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/mavenproject1.xml
+27-Mar-2019 15:05:18.810 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Mar-2019 15:05:19.363 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Mar-2019 15:05:19.410 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/mavenproject1.xml has finished in 662 ms
+27-Mar-2019 15:05:19.410 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/mavenproject2.xml
+27-Mar-2019 15:05:19.425 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Mar-2019 15:05:19.425 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mavenproject2]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:596)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1805)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@400618de]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4842)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4974)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [/user/6/.base/yoeungm/home/ensimag_2/web/acol_web/mavenproject2/target/mavenproject2-1.0-SNAPSHOT] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:732)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:690)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+27-Mar-2019 15:05:19.426 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/mavenproject2.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mavenproject2]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:596)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1805)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+27-Mar-2019 15:05:19.427 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/mavenproject2.xml has finished in 17 ms
+27-Mar-2019 15:05:19.428 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/host-manager
+27-Mar-2019 15:05:19.737 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Mar-2019 15:05:19.748 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/host-manager has finished in 320 ms
+27-Mar-2019 15:05:19.751 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/examples
+27-Mar-2019 15:05:21.009 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Mar-2019 15:05:21.048 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/examples has finished in 1,296 ms
+27-Mar-2019 15:05:21.048 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/manager
+27-Mar-2019 15:05:21.247 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Mar-2019 15:05:21.258 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/manager has finished in 210 ms
+27-Mar-2019 15:05:21.276 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/docs
+27-Mar-2019 15:05:21.487 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Mar-2019 15:05:21.490 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/docs has finished in 232 ms
+27-Mar-2019 15:05:21.490 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/ROOT
+27-Mar-2019 15:05:21.710 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Mar-2019 15:05:21.717 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/ROOT has finished in 227 ms
+27-Mar-2019 15:05:21.720 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+27-Mar-2019 15:05:21.731 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+27-Mar-2019 15:05:21.767 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3102 ms
+27-Mar-2019 15:05:24.964 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/app.xml
+27-Mar-2019 15:05:24.968 WARNING [http-nio-8080-exec-3] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Mar-2019 15:05:25.422 INFO [http-nio-8080-exec-3] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Mar-2019 15:05:25.429 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/app.xml has finished in 465 ms
+27-Mar-2019 15:05:25.438 INFO [http-nio-8080-exec-6] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/app]] after start() had already been called. The second call will be ignored.
+27-Mar-2019 15:05:43.347 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/app]
+27-Mar-2019 15:05:43.366 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/app.xml
+27-Mar-2019 15:05:43.380 WARNING [http-nio-8080-exec-5] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+27-Mar-2019 15:05:43.707 INFO [http-nio-8080-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+27-Mar-2019 15:05:43.724 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/app.xml has finished in 358 ms
+27-Mar-2019 15:05:43.737 INFO [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/app]] after start() had already been called. The second call will be ignored.
+27-Mar-2019 21:50:01.203 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+27-Mar-2019 21:50:01.262 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2019 21:50:01.313 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+27-Mar-2019 21:50:01.348 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+27-Mar-2019 21:50:01.353 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+27-Mar-2019 21:50:01.354 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+27-Mar-2019 21:50:01.354 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

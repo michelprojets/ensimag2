@@ -1,0 +1,24 @@
+#!/bin/sh
+
+PATH=/opt/MATLAB/R2018a/polyspace/bin/:$PATH
+
+
+#-I /usr/include -no-default-system-includes \
+
+INCLUDE=`realpath ../include`
+
+polyspace-bug-finder-nodesktop \
+    -checkers all \
+    -disable-checkers TAINTED_SIGN_CHANGE \
+    -to pass2 \
+    -I ${INCLUDE} \
+    -I ${INCLUDE}/openssl \
+    -D SIXTY_FOUR_BIT_LONG \
+    -D OPENSSL_NO_KRB5 \
+    -keep-all-files \
+    -sources website_access.c \
+    -results-dir RESULT \
+    $@
+(cd RESULT; polyspace)&
+
+

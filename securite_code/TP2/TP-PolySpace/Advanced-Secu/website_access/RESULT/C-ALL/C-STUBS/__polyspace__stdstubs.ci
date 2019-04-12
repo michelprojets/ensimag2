@@ -1,0 +1,2057 @@
+# 1 "C-STUBS/__polyspace__stdstubs.c"
+
+/* fron var stdout */;
+typedef signed int __PST__SINT32;
+typedef signed char __PST__SINT8;
+typedef __PST__SINT8 *__PST__g__12;
+typedef struct _IO_marker *__PST__g__19;
+typedef struct _IO_FILE *__PST__g__20;
+typedef unsigned short __PST__UINT16;
+typedef __PST__SINT8 __PST__g__21[1];
+typedef void __PST__VOID;
+typedef __PST__VOID *__PST__g__11;
+typedef signed long long __PST__SINT64;
+typedef unsigned int __PST__UINT32;
+typedef __PST__SINT8 __PST__g__22[40];
+struct _IO_FILE
+  {
+    __PST__SINT32 _flags;
+    __PST__g__12 _IO_read_ptr;
+    __PST__g__12 _IO_read_end;
+    __PST__g__12 _IO_read_base;
+    __PST__g__12 _IO_write_base;
+    __PST__g__12 _IO_write_ptr;
+    __PST__g__12 _IO_write_end;
+    __PST__g__12 _IO_buf_base;
+    __PST__g__12 _IO_buf_end;
+    __PST__g__12 _IO_save_base;
+    __PST__g__12 _IO_backup_base;
+    __PST__g__12 _IO_save_end;
+    __PST__g__19 _markers;
+    __PST__g__20 _chain;
+    __PST__SINT32 _fileno;
+    __PST__SINT32 _flags2;
+    __PST__SINT32 _old_offset;
+    __PST__UINT16 _cur_column;
+    __PST__SINT8 _vtable_offset;
+    __PST__g__21 _shortbuf;
+    __PST__g__11 _lock;
+    __PST__SINT64 _offset;
+    __PST__g__11 __pad1;
+    __PST__g__11 __pad2;
+    __PST__g__11 __pad3;
+    __PST__g__11 __pad4;
+    __PST__UINT32 __pad5;
+    __PST__SINT32 _mode;
+    __PST__g__22 _unused2;
+  };
+typedef struct _IO_FILE FILE; /* Typedef from user source */
+# 62 "C-STUBS/__polyspace__stdstubs.c"
+
+# 75 "C-STUBS/__polyspace__stdstubs.c"
+
+# 91 "C-STUBS/__polyspace__stdstubs.c"
+
+# 108 "C-STUBS/__polyspace__stdstubs.c"
+
+# 122 "C-STUBS/__polyspace__stdstubs.c"
+
+# 142 "C-STUBS/__polyspace__stdstubs.c"
+
+# 164 "C-STUBS/__polyspace__stdstubs.c"
+
+# 177 "C-STUBS/__polyspace__stdstubs.c"
+
+# 190 "C-STUBS/__polyspace__stdstubs.c"
+
+# 209 "C-STUBS/__polyspace__stdstubs.c"
+
+# 228 "C-STUBS/__polyspace__stdstubs.c"
+
+# 247 "C-STUBS/__polyspace__stdstubs.c"
+
+# 263 "C-STUBS/__polyspace__stdstubs.c"
+
+# 279 "C-STUBS/__polyspace__stdstubs.c"
+
+# 295 "C-STUBS/__polyspace__stdstubs.c"
+
+# 311 "C-STUBS/__polyspace__stdstubs.c"
+
+# 324 "C-STUBS/__polyspace__stdstubs.c"
+
+# 343 "C-STUBS/__polyspace__stdstubs.c"
+
+# 362 "C-STUBS/__polyspace__stdstubs.c"
+
+# 375 "C-STUBS/__polyspace__stdstubs.c"
+
+# 388 "C-STUBS/__polyspace__stdstubs.c"
+
+# 401 "C-STUBS/__polyspace__stdstubs.c"
+
+# 414 "C-STUBS/__polyspace__stdstubs.c"
+
+# 424 "C-STUBS/__polyspace__stdstubs.c"
+
+# 440 "C-STUBS/__polyspace__stdstubs.c"
+
+# 453 "C-STUBS/__polyspace__stdstubs.c"
+
+# 470 "C-STUBS/__polyspace__stdstubs.c"
+
+# 480 "C-STUBS/__polyspace__stdstubs.c"
+
+# 490 "C-STUBS/__polyspace__stdstubs.c"
+
+# 500 "C-STUBS/__polyspace__stdstubs.c"
+
+# 513 "C-STUBS/__polyspace__stdstubs.c"
+
+# 526 "C-STUBS/__polyspace__stdstubs.c"
+
+# 548 "C-STUBS/__polyspace__stdstubs.c"
+
+# 561 "C-STUBS/__polyspace__stdstubs.c"
+
+# 574 "C-STUBS/__polyspace__stdstubs.c"
+
+# 590 "C-STUBS/__polyspace__stdstubs.c"
+
+# 600 "C-STUBS/__polyspace__stdstubs.c"
+
+# 613 "C-STUBS/__polyspace__stdstubs.c"
+
+# 626 "C-STUBS/__polyspace__stdstubs.c"
+
+# 639 "C-STUBS/__polyspace__stdstubs.c"
+
+# 652 "C-STUBS/__polyspace__stdstubs.c"
+
+# 671 "C-STUBS/__polyspace__stdstubs.c"
+
+# 690 "C-STUBS/__polyspace__stdstubs.c"
+
+# 712 "C-STUBS/__polyspace__stdstubs.c"
+
+# 722 "C-STUBS/__polyspace__stdstubs.c"
+
+# 732 "C-STUBS/__polyspace__stdstubs.c"
+
+# 742 "C-STUBS/__polyspace__stdstubs.c"
+
+
+/*assert has no return typedef*/
+# 751 "C-STUBS/__polyspace__stdstubs.c"
+typedef unsigned int size_t; /*Customer defined*/ 
+# 774 "C-STUBS/__polyspace__stdstubs.c"
+typedef int ptrdiff_t; /*Target defined*/ 
+# 785 "C-STUBS/__polyspace__stdstubs.c"
+typedef unsigned int wchar_t; /*Target defined*/ 
+# 796 "C-STUBS/__polyspace__stdstubs.c"
+typedef int ssize_t; /*Target defined*/ 
+# 803 "C-STUBS/__polyspace__stdstubs.c"
+/*
+ * Copyright 1999-2017 The MathWorks, Inc.
+ */
+
+/*
+   Polyspace standard stubs.
+   __polyspace__stdstubs.c
+
+   Pragma POLYSPACE_POLYMORPHIC indicates that the function have no important
+   access to global variables (neither syntactically nor by pointer).
+   Such a declaration impacts the precision of the Verifier.
+     In fact, we can say that the following functions are polymorphic:
+       - the pure functions (POLYSPACE_PURE or functions that only deal will
+         basic types)
+       - the functions that only read pointers (e.g const pointers)
+     The following functions cannot be declared polymorphic:
+       - the functions that return a pointer
+       - the functions that write in pointers
+       - the functions that syntactically access to a global variable.
+
+   We don't model the writes of I/O functions to __iob (for O.S. Solaris) as
+   it would create a lot of side-effect and is not important in the RTE analysis
+
+   We always initialize the randoms, although they are volatile. It may allows to
+   be a bit more precise on NIVs.
+
+   Defines that this file may understand:
+   - all standard stubs may be deactivated with -D POLYSPACE_NO_STANDARD_STUBS
+   - the stubs for extensions to ANSI C standard may be deactivated with
+     -D POLYSPACE_STRICT_ANSI_STANDARD_STUBS
+   - all writes to stream (FILE) may be deactivated with -D POLYSPACE_NO_IO_WRITE
+      In this case, the model will not fit to the reality, but it is for scaling
+      and precision needs. This can lead to false red errors with macro version
+      of functions like feof (macros that access directly to the fields in the FILE)
+*/
+
+
+/* C/8159: #define volatile in -include must not impact this file */
+
+
+
+
+
+
+/* @DECL_MACRO is a macro taking three parameters that are
+ * function return, function name and function args.
+ * For instance it can be PST_STUB_C_DEF or PST_STUB_C_DEF_NO_RETURN.
+ *
+ * @var_args is used to control if function has varargs.
+ * It can have value HAS_VARARGS or NO_VARARGS. */
+
+
+
+/* force stubs type adaptation. Not possible in C++ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Set NO_INCLUDES to avoid including assert.h and stdargs.h in
+   __polyspace__std_decls.h*/
+# 889 "C-STUBS/__polyspace__stdstubs.c"
+
+/* Test if number of arguments of stub is matching number of arguments of customer.
+ * 1 if test is correct, 0 else. */
+
+
+/* Macro used to choose if stub type must be adapted from customer version or not. */
+# 901 "C-STUBS/__polyspace__stdstubs.c"
+/* Macros to define a stub without adapting its type to customer version */
+
+/* Begin a stub for a function with 0 fixed argument - varargs is ignored */
+
+
+
+/* Begin a stub for a function with 1 fixed argument */
+
+
+
+/* Begin a stub for a function with 2 fixed argument */
+# 918 "C-STUBS/__polyspace__stdstubs.c"
+
+/* Begin a stub for a function with 3 fixed argument */
+# 928 "C-STUBS/__polyspace__stdstubs.c"
+
+/* Begin a stub for a function with 4 fixed argument */
+# 940 "C-STUBS/__polyspace__stdstubs.c"
+
+/* Begin a stub for a function with 5 fixed argument */
+# 954 "C-STUBS/__polyspace__stdstubs.c"
+
+/* macros to define stubs that are automatically typed like customer version.
+ * INTERNAL macros should not be used directly for stubs. */
+
+/* ------------------------ INTERNAL MACROS --------------------------------- */
+/* Instantiate return type and argument type of a function via typedef macro. */
+
+
+
+/* Instantiate all arguments type of a function (having 1 to 5 parameters) */
+
+
+
+
+
+# 985 "C-STUBS/__polyspace__stdstubs.c"
+    /* Instantiate return type and all arguments type of a function */
+
+
+
+
+    /* Get return type and argument type of a function.
+     * Those types must have been instantiated using INSTANTIATE_FUNCTION_TYPE macro */
+    /* function return type */
+
+    /* function type of an argument */
+
+
+    /* declare a variable named @arg with type @arg_std_type.
+     * Variable initial value is the value of argument arg##_ casted to correct type.
+     * This macro is used to interface with body of existing stubs that have fixed type. */
+
+
+
+    /* ------------------------- NON INTERNAL MACROS ----------------------------------- */
+
+    /* Begin a stub for a function with 0 fixed argument - varargs is ignored */
+
+
+
+
+    /* Begin a stub for a function with 1 fixed argument */
+
+
+
+
+
+    /* Begin a stub for a function with 2 fixed argument */
+# 1026 "C-STUBS/__polyspace__stdstubs.c"
+
+    /* Begin a stub for a function with 3 fixed argument */
+# 1040 "C-STUBS/__polyspace__stdstubs.c"
+
+    /* Begin a stub for a function with 4 fixed argument */
+# 1057 "C-STUBS/__polyspace__stdstubs.c"
+
+    /* Begin a stub for a function with 5 fixed argument */
+# 1077 "C-STUBS/__polyspace__stdstubs.c"
+
+    /* macro to return from a function with a custom type.
+     * Uses macro defined for function */
+
+
+    /* End a stub for a function */
+
+
+
+
+
+
+
+# 1194 "C-STUBS/__polyspace__stdstubs.c"
+//Some C definition
+
+
+
+
+
+
+    /* *** KEIL & IAR Stubs ******************************** */
+
+
+
+
+
+    /* ***************************************************** */
+    /* ***** Stubs for strict ANSI C standard includes ***** */
+    /* ***************************************************** */
+    /* includes stubbed:
+     * - assert.h
+     * - ctype.h
+     * - errno.h is partially stubbed. Some math functions for which Polyspace
+     *           Verifier uses builtin code do no set errno but generate a red
+     *           error when a range error or a domain error occurs.
+     * - locale.h
+     * - math.h
+     * - setjmp.h is stubbed with some functional limitations. See the implementation
+     *            of the 'setjmp' and 'longjmp' functions for more informations.
+     * - signal.h is stubbed with some functional limitations. See the implementation
+     *            of the 'signal' and 'raise' functions for more informations.
+     * - stdio.h
+     * - stdarg.h
+     * - stdlib.h
+     * - string.h
+     * - time.h
+     */
+    /*********************************************************************** stdarg.h */
+
+    int _polyspace_vararg_position;
+    volatile int _polyspace_vararg_p0;
+
+# 1845 "C-STUBS/__polyspace__stdstubs.c"
+
+      /* open can take 3 or 2 parameters */
+
+
+
+
+# 1865 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* limits.h */
+
+    /* __SCHAR_MAX__ defined by C++ FE */
+# 1906 "C-STUBS/__polyspace__stdstubs.c"
+
+    /* stdlib.h */
+
+    /* When standard stubs are activated, macro for errno is deactivated. Declare it as a simple integer. */
+
+
+
+
+
+
+        int errno;
+
+
+
+
+
+# 1928 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+
+
+    static char _polyspace_random_char()
+    {
+        static volatile char random;
+        return random;
+    }
+
+
+
+    static unsigned char _polyspace_random_uchar()
+    {
+        static volatile unsigned char random;
+        return random;
+    }
+
+
+
+    static int _polyspace_random_int()
+    {
+        static volatile int random;
+        return random;
+    }
+
+
+
+    static long _polyspace_random_long()
+    {
+        static volatile long random;
+        return random;
+    }
+
+
+
+    static unsigned long _polyspace_random_ulong()
+    {
+        static volatile unsigned long random;
+        return random;
+    }
+
+
+    static double _polyspace_random_double()
+    {
+        static volatile double random;
+        return random;
+    }
+
+# 1994 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+
+
+    static FILE _polyspace_random_FILE()
+    {
+        static volatile FILE random;
+
+
+
+        return random;
+
+    }
+
+
+
+# 2023 "C-STUBS/__polyspace__stdstubs.c"
+
+    static size_t _polyspace_random_size_t() {
+        static volatile size_t random;
+        return random;
+    }
+
+
+
+
+
+
+
+
+# 2050 "C-STUBS/__polyspace__stdstubs.c"
+
+/* Macros used to generate assertions on the stubbed functions parameters. */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 2079 "C-STUBS/__polyspace__stdstubs.c"
+
+# 2088 "C-STUBS/__polyspace__stdstubs.c"
+
+# 2099 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+    /* C/4992 : return err and set errno if fatal error */
+# 2109 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*********************************************************************** ctype.h */
+# 2232 "C-STUBS/__polyspace__stdstubs.c"
+
+# 2281 "C-STUBS/__polyspace__stdstubs.c"
+
+# 2330 "C-STUBS/__polyspace__stdstubs.c"
+
+# 2379 "C-STUBS/__polyspace__stdstubs.c"
+
+# 2428 "C-STUBS/__polyspace__stdstubs.c"
+
+# 2477 "C-STUBS/__polyspace__stdstubs.c"
+
+// Note: isblank is C99
+# 2527 "C-STUBS/__polyspace__stdstubs.c"
+
+# 2576 "C-STUBS/__polyspace__stdstubs.c"
+
+# 2625 "C-STUBS/__polyspace__stdstubs.c"
+
+# 2674 "C-STUBS/__polyspace__stdstubs.c"
+
+# 2723 "C-STUBS/__polyspace__stdstubs.c"
+
+# 2772 "C-STUBS/__polyspace__stdstubs.c"
+
+# 2821 "C-STUBS/__polyspace__stdstubs.c"
+
+# 2870 "C-STUBS/__polyspace__stdstubs.c"
+
+
+    /*********************************************************************** locale.h */
+# 2992 "C-STUBS/__polyspace__stdstubs.c"
+
+    /*********************************************************************** math.h */
+# 3000 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3007 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3014 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3021 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3028 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3035 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3042 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3049 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3056 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3063 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3070 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3077 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3084 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3091 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3098 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3105 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3112 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3119 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3126 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3133 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3140 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3147 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3154 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3161 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3168 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 3187 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3194 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3201 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3208 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3215 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3222 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3229 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3236 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3243 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3250 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3257 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3264 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3271 "C-STUBS/__polyspace__stdstubs.c"
+
+    /* C++/5818 : visual - specific setjmp is macro-ized in visual include as _setjmp */
+# 3326 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3394 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3451 "C-STUBS/__polyspace__stdstubs.c"
+
+
+    /*********************************************************************** stdio.h */
+    void **__polyspace_vararg;  /* just there to avoid compiling errors with varargs stubs */
+    int __polyspace_nb_varargs; /* idem */
+
+
+
+
+    #pragma POLYSPACE_INLINE_CHECKS "remove"
+
+
+
+
+# 3474 "C-STUBS/__polyspace__stdstubs.c"
+    typedef int __polyspace_remove_ret_t; typedef char const *__polyspace_remove_arg0_t; __polyspace_remove_ret_t remove (__polyspace_remove_arg0_t filename_ )  { const char* filename = (const char*) filename_;
+    {
+        /*
+          The 'remove' function causes the file whose name is the string pointed
+          to by 'filename' to be no longer accessible by that name.
+        */
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "argument (filename)"
+#pragma Inspection_Point filename
+        ;
+#pragma polyspace_value_info
+      
+#pragma polyspace_check_info ("argument (filename)" " is a valid string", "argument (filename)" " may not be a valid string", "argument (filename)" " is not a valid string")
+        { __ps_builtin_assert_is_valid_string(filename); __ps_builtin_data_table_read_ptr(filename); };
+#pragma polyspace_check_info
+        /*
+          The 'remove' function returns zero if the operation succeeds, -1 if
+          it fails.
+        */
+
+#pragma polyspace_check_info ("value returned fits in range of returned type", "value returned may not fit in range of returned type", "value returned does not fit in range of returned type")
+
+        {if (_polyspace_random_int()) { int tmp = _polyspace_random_int(); unchecked_assert(tmp>0); errno=tmp; return (__polyspace_remove_ret_t)(-1); } };
+        return (__polyspace_remove_ret_t)(0);
+
+#pragma polyspace_check_info
+
+    }
+    }
+#pragma POLYSPACE_POLYMORPHIC "remove"
+
+
+
+
+
+# 3566 "C-STUBS/__polyspace__stdstubs.c"
+
+# 3635 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+    #pragma POLYSPACE_INLINE_CHECKS "fclose"
+
+
+
+
+# 3653 "C-STUBS/__polyspace__stdstubs.c"
+
+
+    typedef int __polyspace_fclose_ret_t; typedef FILE *__polyspace_fclose_arg0_t; __polyspace_fclose_ret_t fclose (__polyspace_fclose_arg0_t stream_ )  { FILE* stream = (FILE*) stream_;
+    {
+        /*
+          The 'fclose' function causes the stream pointed to by 'stream' to be
+          flushed and the associated file to be closed.
+        */
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "argument (stream)"
+#pragma Inspection_Point stream
+        ;
+#pragma polyspace_value_info
+
+#pragma polyspace_check_info ("argument (stream)" " is a readable pointer", "argument (stream)" " may not be a readable pointer", "argument (stream)" " is not a readable pointer")
+        { __ps_builtin_dereference_check(stream, sizeof(FILE)); __ps_builtin_data_table_read_ptr(stream) ; };
+#pragma polyspace_check_info
+
+
+
+
+        *stream = _polyspace_random_FILE();
+
+
+
+        /*
+          write user associated IO buffer via setbuf /setvbuf if exists
+        */
+        ;
+
+        /*
+          The 'fclose' function returns zero if the stream was successfully closed
+          or EOF if any errors were detected.
+        */
+
+#pragma polyspace_check_info ("value returned fits in range of returned type", "value returned may not fit in range of returned type", "value returned does not fit in range of returned type")
+
+        {if (_polyspace_random_int()) { int tmp = _polyspace_random_int(); unchecked_assert(tmp>0); errno=tmp; return (__polyspace_fclose_ret_t)(-1); } };
+        return (__polyspace_fclose_ret_t)(0);
+
+#pragma polyspace_check_info
+
+    }
+    }
+#pragma POLYSPACE_POLYMORPHIC "fclose"
+
+
+
+
+
+# 3773 "C-STUBS/__polyspace__stdstubs.c"
+
+    /* Functions of stdio that may have concurrent access to a global variable.
+     * Those functions need to be stubbed differently for each target OS.
+     *
+     * Solaris uses a global table: __iob to store the FILEs. We must stub to show the accesses to __iob.
+     * Linux does not use any global table. stdin, stdout and stderr are global variables but cannot be accessed by fopen and Cie.
+     */
+
+# 3828 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+    #pragma POLYSPACE_INLINE_CHECKS "fopen"
+
+
+
+# 3845 "C-STUBS/__polyspace__stdstubs.c"
+
+
+    typedef FILE *__polyspace_fopen_ret_t; typedef char const *__polyspace_fopen_arg0_t; typedef char const *__polyspace_fopen_arg1_t; __polyspace_fopen_ret_t fopen (__polyspace_fopen_arg0_t filename_, __polyspace_fopen_arg1_t mode_ )  { const char * filename = (const char *) filename_; const char * mode = (const char *) mode_;
+    {
+        FILE* volatile random_file;
+        FILE* ret;
+        /*
+          The 'fopen' function opens the file whose name is the string pointed to
+          by 'filename', and associates a stream with it.
+
+          The argument 'mode' points to a string.
+
+          The 'fopen' function returns a pointer to the object controlling the
+          stream. If the open operation fails, 'fopen' returns a null pointer.
+        */
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "first argument (filename)"
+#pragma Inspection_Point filename
+        ;
+#pragma polyspace_value_info
+#pragma polyspace_value_info STD_LIB_value_type("VALUE") "second argument (mode)"
+#pragma Inspection_Point mode
+        ;
+#pragma polyspace_value_info
+
+#pragma polyspace_check_info ("first argument (filename)" " is a valid string", "first argument (filename)" " may not be a valid string", "first argument (filename)" " is not a valid string")
+
+        { __ps_builtin_assert_is_valid_string(filename); __ps_builtin_data_table_read_ptr(filename); };
+#pragma polyspace_check_info
+#pragma polyspace_check_info ("second argument (mode)" " is a valid string", "second argument (mode)" " may not be a valid string", "second argument (mode)" " is not a valid string")
+        { __ps_builtin_assert_is_valid_string(mode); __ps_builtin_data_table_read_ptr(mode); };
+#pragma polyspace_check_info
+        {if (_polyspace_random_int()) { int tmp = _polyspace_random_int(); unchecked_assert(tmp>0); errno=tmp; return (__polyspace_fopen_ret_t)((FILE*)0); } };
+
+        ret = random_file;
+
+
+
+        *ret = _polyspace_random_FILE();
+
+        return (__polyspace_fopen_ret_t)(ret);
+    }
+    }
+
+
+
+
+
+# 3971 "C-STUBS/__polyspace__stdstubs.c"
+
+    /* End of functions of stdio that have concurrent access */
+
+# 4045 "C-STUBS/__polyspace__stdstubs.c"
+
+# 4147 "C-STUBS/__polyspace__stdstubs.c"
+
+# 4218 "C-STUBS/__polyspace__stdstubs.c"
+
+# 4270 "C-STUBS/__polyspace__stdstubs.c"
+
+# 4340 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+    #pragma POLYSPACE_INLINE_CHECKS "fprintf"
+
+
+
+
+# 4358 "C-STUBS/__polyspace__stdstubs.c"
+
+
+    typedef int __polyspace_fprintf_ret_t; typedef FILE *__polyspace_fprintf_arg0_t; typedef char const *__polyspace_fprintf_arg1_t; __polyspace_fprintf_ret_t fprintf (__polyspace_fprintf_arg0_t stream_, __polyspace_fprintf_arg1_t format_ ,...)  { FILE* stream = (FILE*) stream_; const char * format = (const char *) format_;
+    {
+        /*
+          The 'fprintf' function writes output to the stream pointed to by 'stream'
+          under control of the string pointed to by 'format'.
+        */
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "first argument (stream)"
+#pragma Inspection_Point stream
+        ;
+#pragma polyspace_value_info
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "second argument (format)"
+#pragma Inspection_Point format
+        ;
+#pragma polyspace_value_info
+
+#pragma polyspace_check_info ("first argument (stream)" " is a readable pointer", "first argument (stream)" " may not be a readable pointer", "first argument (stream)" " is not a readable pointer")
+        { __ps_builtin_dereference_check(stream, sizeof(FILE)); __ps_builtin_data_table_read_ptr(stream) ; };
+#pragma polyspace_check_info
+#pragma polyspace_check_info ("second argument (format)" " is a valid string", "second argument (format)" " may not be a valid string", "second argument (format)" " is not a valid string")
+        { __ps_builtin_assert_is_valid_string(format); __ps_builtin_data_table_read_ptr(format); };
+#pragma polyspace_check_info
+
+
+
+
+        *stream = _polyspace_random_FILE();
+
+
+
+        /*
+          write user associated IO buffer via setbuf /setvbuf if exists
+        */
+        ;
+        /*
+          The 'fprintf' function returns the number of characters transmitted, or
+          a negative value if an output error occurred.
+        */
+
+#pragma polyspace_check_info ("value returned fits in range of returned type", "value returned may not fit in range of returned type", "value returned does not fit in range of returned type")
+
+        return (__polyspace_fprintf_ret_t)(_polyspace_random_int());
+
+#pragma polyspace_check_info
+
+    }
+    }
+
+
+
+
+
+# 4500 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+    #pragma POLYSPACE_INLINE_CHECKS "printf"
+
+
+
+
+# 4518 "C-STUBS/__polyspace__stdstubs.c"
+
+
+    typedef int __polyspace_printf_ret_t; typedef char const *__polyspace_printf_arg0_t; __polyspace_printf_ret_t printf (__polyspace_printf_arg0_t format_ ,...)  { const char * format = (const char *) format_;
+    {
+        /*
+          The 'printf' function is equivalent to fprintf with the argument 'stdout'
+          interposed before the arguments to 'printf'.
+        */
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "first argument (format)"
+#pragma Inspection_Point format
+        ;
+#pragma polyspace_value_info
+
+#pragma polyspace_check_info ("first argument (format)" " is a valid string", "first argument (format)" " may not be a valid string", "first argument (format)" " is not a valid string")
+        { __ps_builtin_assert_is_valid_string(format); __ps_builtin_data_table_read_ptr(format); };
+#pragma polyspace_check_info
+
+        /*
+          write user associated IO buffer via setbuf /setvbuf if exists
+        */
+        ;
+
+
+#pragma polyspace_check_info ("value returned fits in range of returned type", "value returned may not fit in range of returned type", "value returned does not fit in range of returned type")
+
+        return (__polyspace_printf_ret_t)(_polyspace_random_int());
+
+#pragma polyspace_check_info
+
+    }
+    }
+#pragma POLYSPACE_POLYMORPHIC "printf"
+
+
+
+
+
+# 4622 "C-STUBS/__polyspace__stdstubs.c"
+
+# 4694 "C-STUBS/__polyspace__stdstubs.c"
+
+# 4762 "C-STUBS/__polyspace__stdstubs.c"
+
+# 4832 "C-STUBS/__polyspace__stdstubs.c"
+
+# 4929 "C-STUBS/__polyspace__stdstubs.c"
+
+# 4998 "C-STUBS/__polyspace__stdstubs.c"
+
+# 5073 "C-STUBS/__polyspace__stdstubs.c"
+
+# 5164 "C-STUBS/__polyspace__stdstubs.c"
+
+# 5231 "C-STUBS/__polyspace__stdstubs.c"
+
+# 5275 "C-STUBS/__polyspace__stdstubs.c"
+
+# 5339 "C-STUBS/__polyspace__stdstubs.c"
+
+# 5429 "C-STUBS/__polyspace__stdstubs.c"
+
+# 5495 "C-STUBS/__polyspace__stdstubs.c"
+
+# 5545 "C-STUBS/__polyspace__stdstubs.c"
+
+# 5607 "C-STUBS/__polyspace__stdstubs.c"
+
+# 5674 "C-STUBS/__polyspace__stdstubs.c"
+
+# 5777 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+    #pragma POLYSPACE_INLINE_CHECKS "fwrite"
+
+
+
+
+# 5795 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+
+
+    typedef unsigned int __polyspace_fwrite_ret_t; typedef void const *__polyspace_fwrite_arg0_t; typedef unsigned int __polyspace_fwrite_arg1_t; typedef unsigned int __polyspace_fwrite_arg2_t; typedef FILE *__polyspace_fwrite_arg3_t; __polyspace_fwrite_ret_t fwrite (__polyspace_fwrite_arg0_t ptr_, __polyspace_fwrite_arg1_t size_, __polyspace_fwrite_arg2_t nitems_, __polyspace_fwrite_arg3_t stream_ )  { const void * ptr = (const void *) ptr_; size_t size = (size_t) size_; size_t nitems = (size_t) nitems_; FILE* stream = (FILE*) stream_;
+
+    {
+        size_t ret;
+        /*
+          The 'fwrite' function writes, from the array pointed to by 'ptr', up to
+          'nitems' elements whose size is specified by 'size', to the stream pointed
+          to by 'stream'.
+
+          The 'fwrite' function returns the number of elements successfully written,
+          which will be less than 'nitems' only if a write error is encountered.
+        */
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_ALLOCATION") "first argument (input buffer)"
+#pragma Inspection_Point ptr
+        ;
+#pragma polyspace_value_info
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "fourth argument (stream)"
+#pragma Inspection_Point stream
+        ;
+#pragma polyspace_value_info
+
+#pragma polyspace_check_info ("fourth argument (stream)" " is a readable pointer", "fourth argument (stream)" " may not be a readable pointer", "fourth argument (stream)" " is not a readable pointer")
+        { __ps_builtin_dereference_check(stream, sizeof(FILE)); __ps_builtin_data_table_read_ptr(stream) ; };
+#pragma polyspace_check_info
+
+
+
+
+        *stream = _polyspace_random_FILE();
+
+
+
+        if (! size || ! nitems) {
+
+#pragma polyspace_check_info ("value returned fits in range of returned type", "value returned may not fit in range of returned type", "value returned does not fit in range of returned type")
+
+            return (__polyspace_fwrite_ret_t)(0);
+
+#pragma polyspace_check_info
+
+        }
+#pragma polyspace_check_info ("first argument (input buffer)" " is a readable pointer", "first argument (input buffer)" " may not be a readable pointer", "first argument (input buffer)" " is not a readable pointer")
+        { __ps_builtin_dereference_check(ptr, sizeof(char) * (size * nitems)); __ps_builtin_data_table_read_ptr(ptr) ; };
+#pragma polyspace_check_info
+        ret = _polyspace_random_size_t();
+        unchecked_assert(ret <= nitems);
+
+        /*
+          write user associated IO buffer via setbuf /setvbuf if exists
+        */
+        ;
+
+        /* C/4992 : return error (-1 for vxworks, 0 other) and set errno if error */
+
+
+
+        {if (_polyspace_random_int()) { int tmp = _polyspace_random_int(); unchecked_assert(tmp>0); errno=tmp; return (__polyspace_fwrite_ret_t)(0); } };
+
+
+#pragma polyspace_check_info ("value returned fits in range of returned type", "value returned may not fit in range of returned type", "value returned does not fit in range of returned type")
+
+        return (__polyspace_fwrite_ret_t)(ret);
+
+#pragma polyspace_check_info
+
+    }
+    }
+
+
+
+
+
+# 5948 "C-STUBS/__polyspace__stdstubs.c"
+
+# 6048 "C-STUBS/__polyspace__stdstubs.c"
+
+# 6122 "C-STUBS/__polyspace__stdstubs.c"
+
+# 6188 "C-STUBS/__polyspace__stdstubs.c"
+
+# 6241 "C-STUBS/__polyspace__stdstubs.c"
+
+# 6287 "C-STUBS/__polyspace__stdstubs.c"
+
+# 6339 "C-STUBS/__polyspace__stdstubs.c"
+
+# 6395 "C-STUBS/__polyspace__stdstubs.c"
+
+# 6440 "C-STUBS/__polyspace__stdstubs.c"
+
+
+    /* Extensions of stdio.h */
+# 6485 "C-STUBS/__polyspace__stdstubs.c"
+
+    /*********************************************************************** stdlib.h */
+
+# 6537 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+    #pragma POLYSPACE_INLINE_CHECKS "atoi"
+
+
+
+
+# 6555 "C-STUBS/__polyspace__stdstubs.c"
+    typedef int __polyspace_atoi_ret_t; typedef char const *__polyspace_atoi_arg0_t; __polyspace_atoi_ret_t atoi (__polyspace_atoi_arg0_t s_ )  { const char * s = (const char *) s_;
+    {
+        /*
+          The 'atoi' function converts the initial portion of the string pointed to
+          by 's' to 'int' representation.
+        */
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "argument (string buffer)"
+#pragma Inspection_Point s
+        ;
+#pragma polyspace_value_info
+
+#pragma polyspace_check_info ("STR_STD_LIB") ("argument (string buffer)" " is a valid string", "argument (string buffer)" " may not be a valid string", "argument (string buffer)" " is not a valid string")
+        { __ps_builtin_assert_is_valid_string(s); __ps_builtin_data_table_read_ptr(s); };
+#pragma polyspace_check_info
+        /*
+          The 'atoi' function returns the converted value.
+        */
+
+#pragma polyspace_check_info ("value returned fits in range of returned type", "value returned may not fit in range of returned type", "value returned does not fit in range of returned type")
+
+        return (__polyspace_atoi_ret_t)(_polyspace_random_int());
+
+#pragma polyspace_check_info
+
+    }
+    }
+#pragma POLYSPACE_POLYMORPHIC "atoi"
+
+
+
+
+
+# 6628 "C-STUBS/__polyspace__stdstubs.c"
+
+# 6705 "C-STUBS/__polyspace__stdstubs.c"
+
+# 6782 "C-STUBS/__polyspace__stdstubs.c"
+
+# 6857 "C-STUBS/__polyspace__stdstubs.c"
+
+# 6932 "C-STUBS/__polyspace__stdstubs.c"
+
+# 6978 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7011 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7023 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7086 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7136 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7148 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7215 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7265 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7307 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7358 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7420 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+
+
+    typedef int (*_polyspace_compare_function_type)(const void *, const void *);
+
+
+# 7499 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7576 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7625 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7697 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7747 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7816 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7885 "C-STUBS/__polyspace__stdstubs.c"
+
+# 7941 "C-STUBS/__polyspace__stdstubs.c"
+
+# 8020 "C-STUBS/__polyspace__stdstubs.c"
+
+# 8100 "C-STUBS/__polyspace__stdstubs.c"
+
+# 8189 "C-STUBS/__polyspace__stdstubs.c"
+
+# 8272 "C-STUBS/__polyspace__stdstubs.c"
+
+    /* C++ delete operator call free */
+
+
+
+
+# 8299 "C-STUBS/__polyspace__stdstubs.c"
+
+# 8336 "C-STUBS/__polyspace__stdstubs.c"
+
+
+    /* Allocation procedures */
+# 8365 "C-STUBS/__polyspace__stdstubs.c"
+
+# 8375 "C-STUBS/__polyspace__stdstubs.c"
+
+# 8385 "C-STUBS/__polyspace__stdstubs.c"
+
+# 8395 "C-STUBS/__polyspace__stdstubs.c"
+
+# 8405 "C-STUBS/__polyspace__stdstubs.c"
+
+# 8415 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+# 8492 "C-STUBS/__polyspace__stdstubs.c"
+
+/* DIAB defines __alloca to be alloca */
+# 8514 "C-STUBS/__polyspace__stdstubs.c"
+
+    /*********************************************************************** string.h */
+    /* For each stub that uses strlen, we must define __polyspace_strlen */
+
+
+
+    #pragma POLYSPACE_INLINE_CHECKS "strlen"
+
+
+
+# 8533 "C-STUBS/__polyspace__stdstubs.c"
+    typedef unsigned int __polyspace_strlen_ret_t; typedef char const *__polyspace_strlen_arg0_t; __polyspace_strlen_ret_t strlen (__polyspace_strlen_arg0_t s_ )  { const char * s = (const char *) s_;
+    {
+        size_t i = 0;
+        /*
+          The 'strlen' function computes the length of the string pointed to by 's'.
+        */
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "argument"
+#pragma Inspection_Point s
+        ;
+#pragma polyspace_value_info
+
+#pragma polyspace_check_info ("STR_STD_LIB") ("argument" " is a valid string", "argument" " may not be a valid string", "argument" " is not a valid string")
+        { __ps_builtin_assert_is_valid_string(s); __ps_builtin_data_table_read_ptr(s); };
+#pragma polyspace_check_info
+        i =  __ps_builtin_strlen(s);
+
+#pragma polyspace_check_info ("value returned fits in range of returned type", "value returned may not fit in range of returned type", "value returned does not fit in range of returned type")
+
+        return (__polyspace_strlen_ret_t)(i);
+
+#pragma polyspace_check_info
+
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 8637 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+    #pragma POLYSPACE_INLINE_CHECKS "strncpy"
+
+
+
+
+# 8655 "C-STUBS/__polyspace__stdstubs.c"
+
+    typedef char *__polyspace_strncpy_ret_t; typedef char *__polyspace_strncpy_arg0_t; typedef char const *__polyspace_strncpy_arg1_t; typedef unsigned int __polyspace_strncpy_arg2_t; __polyspace_strncpy_ret_t strncpy (__polyspace_strncpy_arg0_t s1_, __polyspace_strncpy_arg1_t s2_, __polyspace_strncpy_arg2_t n_ )  { char * s1 = (char *) s1_; const char * s2 = (const char *) s2_; size_t n = (size_t) n_;
+    {
+      int i, len;
+        /*
+          The 'strncpy' function copies not more than 'n' characters (characters that
+          follow a null character are not copied) from the array pointed to by 's2'
+          to the array pointed to by 's1'.
+
+          If the array pointed to by 's2' is a string that is shorter than 'n'
+          characters, null characters are appended to the copy in the array pointed
+          to by 's1', until 'n' characters in all have been written.
+        */
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_ALLOCATION") "first argument (destination)"
+#pragma Inspection_Point s1
+        ;
+#pragma polyspace_value_info
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "second argument (source)"
+#pragma Inspection_Point s2
+        ;
+#pragma polyspace_value_info
+#pragma polyspace_value_info STD_LIB_value_type("VALUE") "third argument (n)"
+#pragma Inspection_Point n
+        ;
+#pragma polyspace_value_info
+
+#pragma polyspace_check_info ("STR_STD_LIB") ("second argument (source)" " is null-terminated or initialized up to " "third argument (n)", "second argument (source)" " may not be null-terminated or initialized up to " "third argument (n)", "second argument (source)" " is not null-terminated or initialized up to " "third argument (n)")
+        { __ps_builtin_assert_is_bounded_valid_string(s2, n); __ps_builtin_data_table_read_ptr(s2); };
+        len=__ps_builtin_bounded_strlen(s2, n);
+#pragma polyspace_check_info
+
+#pragma polyspace_value_info STD_LIB_value_type("VALUE") "size of copied string"
+#pragma Inspection_Point len
+        ;
+#pragma polyspace_value_info
+
+#pragma polyspace_check_info ("STR_STD_LIB") ("first argument (destination)" " " "is" " allocated enough to receive the copied string", "first argument (destination)" " " "may be" " allocated enough to receive the copied string", "first argument (destination)" " " "is not" " allocated enough to receive the copied string")
+        { char __one_byte__; const void *__s0__ = (n) == 0 ? &__one_byte__ : (s1); unsigned long __n0__ = (n) == 0 ? 1 : (n); __ps_builtin_dereference_check(__s0__, sizeof(char) * __n0__); }
+#pragma polyspace_check_info
+          
+        for (i = 0; i < n && s2[i] != 0; i++)
+            s1[i] = s2[i];
+
+        for ( ; i < n; i++)
+            s1[i] = 0;
+
+        /*
+          The 'strncpy' function returns the value of 's1'.
+        */
+        return (__polyspace_strncpy_ret_t)(s1);
+    }
+    }
+
+
+
+
+
+# 8790 "C-STUBS/__polyspace__stdstubs.c"
+
+# 8873 "C-STUBS/__polyspace__stdstubs.c"
+
+# 8938 "C-STUBS/__polyspace__stdstubs.c"
+
+# 9053 "C-STUBS/__polyspace__stdstubs.c"
+
+# 9113 "C-STUBS/__polyspace__stdstubs.c"
+
+# 9235 "C-STUBS/__polyspace__stdstubs.c"
+
+# 9307 "C-STUBS/__polyspace__stdstubs.c"
+
+# 9319 "C-STUBS/__polyspace__stdstubs.c"
+
+# 9441 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+    #pragma POLYSPACE_INLINE_CHECKS "strchr"
+
+
+
+
+# 9459 "C-STUBS/__polyspace__stdstubs.c"
+
+# 9532 "C-STUBS/__polyspace__stdstubs.c"
+    typedef char *__polyspace_strchr_ret_t; typedef char const *__polyspace_strchr_arg0_t; typedef int __polyspace_strchr_arg1_t; __polyspace_strchr_ret_t strchr (__polyspace_strchr_arg0_t s_, __polyspace_strchr_arg1_t c_ )  { const char * s = (const char *) s_; int c = (int) c_;
+    {
+        int i, length = 0;
+        /*
+          The 'strchr' function locates the first occurrence of 'c' (converted to
+          a 'char') in the string pointed to by s. The terminating null character
+          is considered to be part of the string.
+
+          The 'strchr' function returns a pointer to the character, or a null
+          pointer if 'c' does not occur in the string.
+        */
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "first argument"
+#pragma Inspection_Point s
+        ;
+#pragma polyspace_value_info
+
+#pragma polyspace_check_info ("STR_STD_LIB") ("first argument" " is a valid string", "first argument" " may not be a valid string", "first argument" " is not a valid string")
+        { __ps_builtin_assert_is_valid_string(s); __ps_builtin_data_table_read_ptr(s); };
+#pragma polyspace_check_info
+
+        length = __ps_builtin_strlen(s);
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "length of first argument"
+#pragma Inspection_Point length
+        ;
+#pragma polyspace_value_info
+
+        for (i = 0; i <= length; i++)
+            if (s[i] == (char) c)
+                return (__polyspace_strchr_ret_t)((char*) (s + i));
+        return (__polyspace_strchr_ret_t)((char *) 0);
+    }
+    }
+
+
+
+
+
+
+# 9627 "C-STUBS/__polyspace__stdstubs.c"
+
+# 9769 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+    #pragma POLYSPACE_INLINE_CHECKS "strrchr"
+
+
+
+
+# 9849 "C-STUBS/__polyspace__stdstubs.c"
+    typedef char *__polyspace_strrchr_ret_t; typedef char const *__polyspace_strrchr_arg0_t; typedef int __polyspace_strrchr_arg1_t; __polyspace_strrchr_ret_t strrchr (__polyspace_strrchr_arg0_t s_, __polyspace_strrchr_arg1_t c_ )  { const char * s = (const char *) s_; int c = (int) c_;
+    {
+        int i, length = 0;
+        /*
+          The 'strrchr' function locates the last occurrence of 'c' (converted to
+          a 'char') in the string pointed to by s. The terminating null character
+          is considered to be part of the string.
+
+          The 'strrchr' function returns a pointer to the character, or a null
+          pointer if 'c' does not occur in the string.
+        */
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "first argument"
+#pragma Inspection_Point s
+        ;
+#pragma polyspace_value_info
+
+#pragma polyspace_check_info ("STR_STD_LIB") ("first argument" " is a valid string", "first argument" " may not be a valid string", "first argument" " is not a valid string")
+        { __ps_builtin_assert_is_valid_string(s); __ps_builtin_data_table_read_ptr(s); };
+#pragma polyspace_check_info
+
+        length = __ps_builtin_strlen(s);
+        for (i=length; i >= 0; i--)
+            if (s[i] == (char) c)
+                return (__polyspace_strrchr_ret_t)((char*) (s + i));
+        return (__polyspace_strrchr_ret_t)(0);
+    }
+    }
+
+
+
+
+
+
+# 9945 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+    #pragma POLYSPACE_INLINE_CHECKS "strstr"
+
+
+
+
+# 10055 "C-STUBS/__polyspace__stdstubs.c"
+    typedef char *__polyspace_strstr_ret_t; typedef char const *__polyspace_strstr_arg0_t; typedef char const *__polyspace_strstr_arg1_t; __polyspace_strstr_ret_t strstr (__polyspace_strstr_arg0_t s1_, __polyspace_strstr_arg1_t s2_ )  { const char * s1 = (const char *) s1_; const char * s2 = (const char *) s2_;
+    {
+        int i, len1 = 0, len2 = 0;
+        /*
+          The 'strstr' function locates the first occurrence in the string pointed to
+          by 's1' of the sequence of characters (excluding the terminating null
+          character) in the string pointed to by 's2'.
+        */
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "first argument"
+#pragma Inspection_Point s1
+        ;
+#pragma polyspace_value_info
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "second argument"
+#pragma Inspection_Point s2
+        ;
+#pragma polyspace_value_info
+
+#pragma polyspace_check_info ("STR_STD_LIB") ("first argument" " is a valid string", "first argument" " may not be a valid string", "first argument" " is not a valid string")
+        { __ps_builtin_assert_is_valid_string(s1); __ps_builtin_data_table_read_ptr(s1); };
+#pragma polyspace_check_info
+
+#pragma polyspace_check_info ("STR_STD_LIB") ("second argument (substring)" " is a valid string", "second argument (substring)" " may not be a valid string", "second argument (substring)" " is not a valid string")
+        { __ps_builtin_assert_is_valid_string(s2); __ps_builtin_data_table_read_ptr(s2); };
+#pragma polyspace_check_info
+
+        len1 = __ps_builtin_strlen(s1);
+        len2 = __ps_builtin_strlen(s2);
+
+        /*
+          The 'strstr' function returns a pointer to the located string, or a null
+          pointer if the string is not found. If 's2' points to a string with zero
+          length, the function returns 's1'.
+        */
+        if (len2 == 0)
+            return (__polyspace_strstr_ret_t)((char *)s1);
+        if (len1 == 0 || _polyspace_random_int())
+            return (__polyspace_strstr_ret_t)((char *)0);
+        i = _polyspace_random_int();
+        unchecked_assert(i >= 0 && i <= len1 - len2);
+        return (__polyspace_strstr_ret_t)((char *) (s1 + i));
+    }
+    }
+
+
+
+
+
+
+
+
+
+    #pragma POLYSPACE_INLINE_CHECKS "strtok"
+
+
+
+
+# 10120 "C-STUBS/__polyspace__stdstubs.c"
+    typedef char *__polyspace_strtok_ret_t; typedef char *__polyspace_strtok_arg0_t; typedef char const *__polyspace_strtok_arg1_t; __polyspace_strtok_ret_t strtok (__polyspace_strtok_arg0_t s1_, __polyspace_strtok_arg1_t s2_ )  { char * s1 = (char *) s1_; const char * s2 = (const char *) s2_;
+    /* stubbed because this function is not polymorphic: stores data in a global variable */
+    {
+        static char *_polyspace_token_save;
+        char *ret;
+        int index, len;
+        /*
+          A sequence of calls to the 'strtok' function breaks the string pointed to
+          by 's1' into a sequence of tokens, each of which is delimited by a
+          character from the string pointed to by 's2'.
+        */
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "first argument"
+#pragma Inspection_Point s1
+        ;
+#pragma polyspace_value_info
+#pragma polyspace_value_info STD_LIB_value_type("POINTER_NULL") "second argument"
+#pragma Inspection_Point s2
+        ;
+#pragma polyspace_value_info
+
+        if (s1 != 0) {
+            /*
+              The first call in the sequence searches the string pointed to by 's1'
+              for the first character that is not contained in the current separator
+              string pointed to by 's2'.
+            */
+#pragma polyspace_check_info ("STR_STD_LIB") ("first argument" " is a valid string", "first argument" " may not be a valid string", "first argument" " is not a valid string")
+            { __ps_builtin_assert_is_valid_string(s1); __ps_builtin_data_table_read_ptr(s1); };
+#pragma polyspace_check_info
+            _polyspace_token_save = s1;
+        }
+#pragma polyspace_check_info ("STR_STD_LIB") ("second argument (separator characters) " " is a valid string", "second argument (separator characters) " " may not be a valid string", "second argument (separator characters) " " is not a valid string")
+        { __ps_builtin_assert_is_valid_string(s2); __ps_builtin_data_table_read_ptr(s2); };
+#pragma polyspace_check_info
+
+        if (_polyspace_token_save)
+            len = __ps_builtin_strlen(_polyspace_token_save);
+        else
+            len = 0;
+        /*
+           If no such character is found, then, there are no tokens in the string
+           pointed to by 's1' and the 'strtok' function returns a null pointer.
+        */
+        if (len == 0 || _polyspace_random_int())
+            return (__polyspace_strtok_ret_t)(0);
+        /*
+          If such a character is found, it is the start of the first token.
+        */
+        index = _polyspace_random_int();
+        unchecked_assert(index >= 0 && index < len);
+        ret = &_polyspace_token_save[index];
+        /*
+          The 'strtok' function then searches from there for a character that is
+          contained in the current separator string.
+        */
+        index = _polyspace_random_int();
+        unchecked_assert(index >= 0 && index <= len);
+        _polyspace_token_save[index] = 0;
+        if (index < len)
+            _polyspace_token_save = &_polyspace_token_save[index + 1];
+        else
+            /*
+              If no such character is found, the current token extends to the end of
+              the string pointed to by 's1', and subsequent searches for a token will
+              return a null pointer.
+            */
+            _polyspace_token_save = &_polyspace_token_save[len];
+        return (__polyspace_strtok_ret_t)(ret);
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+# 10239 "C-STUBS/__polyspace__stdstubs.c"
+
+# 10298 "C-STUBS/__polyspace__stdstubs.c"
+
+# 10361 "C-STUBS/__polyspace__stdstubs.c"
+
+    /*********************************************************************** time.h */
+# 10397 "C-STUBS/__polyspace__stdstubs.c"
+
+# 10438 "C-STUBS/__polyspace__stdstubs.c"
+
+# 10494 "C-STUBS/__polyspace__stdstubs.c"
+
+# 10543 "C-STUBS/__polyspace__stdstubs.c"
+
+# 10595 "C-STUBS/__polyspace__stdstubs.c"
+
+# 10647 "C-STUBS/__polyspace__stdstubs.c"
+
+# 10704 "C-STUBS/__polyspace__stdstubs.c"
+
+# 10760 "C-STUBS/__polyspace__stdstubs.c"
+
+# 10855 "C-STUBS/__polyspace__stdstubs.c"
+
+
+    /* **************************************** */
+    /* ***** End of ANSI C standard stubs ***** */
+    /* **************************************** */
+
+
+    /* **************************************** */
+    /* ****** Concurrency related stubs ******* */
+    /* **************************************** */
+
+
+    /*********************************************************************** pthread.h */
+
+    /* **** pthread_create **** */
+# 10908 "C-STUBS/__polyspace__stdstubs.c"
+
+
+    /* **** pthread_exit **** */
+# 10932 "C-STUBS/__polyspace__stdstubs.c"
+
+
+    /* **** pthread_mutex_lock **** */
+# 10965 "C-STUBS/__polyspace__stdstubs.c"
+
+
+    /* **** pthread_mutex_unlock **** */
+# 10998 "C-STUBS/__polyspace__stdstubs.c"
+
+/**************** micro-C OS ***************************/
+
+/* OSMutexCreate */
+
+# 11055 "C-STUBS/__polyspace__stdstubs.c"
+
+    /*********************************************************************** vxWorks.h */
+
+# 11184 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+    /* **************************************** */
+    /* *** End of concurrency related stubs *** */
+    /* **************************************** */
+
+
+    /* *************************************************** */
+    /* ***** Stubs for extensions to ANSI C standard ***** */
+    /* *************************************************** */
+
+    /* includes stubbed:
+     * - strings.h
+     * - unistd.h
+     * - fcntl.h
+     */
+
+# 11276 "C-STUBS/__polyspace__stdstubs.c"
+
+# 11308 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+    /*********************************************************************** strings.h */
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*********************************************************************** unistd.h */
+    /* We don't modelize here the light modifications of the FILEs referenced by the file descriptors
+     *  given in parameter. We consider that those modifications are not important for the RTE analysis (e.g fsync, chdir, ...) */
+
+# 11375 "C-STUBS/__polyspace__stdstubs.c"
+
+# 11422 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+
+# 11436 "C-STUBS/__polyspace__stdstubs.c"
+
+    typedef int __polyspace_close_ret_t; typedef int __polyspace_close_arg0_t; __polyspace_close_ret_t close (__polyspace_close_arg0_t fildes_ )  { int fildes = (int) fildes_;
+    {
+
+#pragma polyspace_check_info ("value returned fits in range of returned type", "value returned may not fit in range of returned type", "value returned does not fit in range of returned type")
+
+      /* Upon successful completion, 0 shall be returned; otherwise, -1 shall be returned   */
+      {if (_polyspace_random_int()) { int tmp = _polyspace_random_int(); unchecked_assert(tmp>0); errno=tmp; return (__polyspace_close_ret_t)(-1); } };
+      return (__polyspace_close_ret_t)(0);
+
+#pragma polyspace_check_info
+
+    }
+    }
+#pragma POLYSPACE_PURE "close"
+#pragma POLYSPACE_POLYMORPHIC "close"
+
+
+
+
+
+# 11488 "C-STUBS/__polyspace__stdstubs.c"
+
+# 11523 "C-STUBS/__polyspace__stdstubs.c"
+
+# 11557 "C-STUBS/__polyspace__stdstubs.c"
+
+# 11590 "C-STUBS/__polyspace__stdstubs.c"
+
+# 11624 "C-STUBS/__polyspace__stdstubs.c"
+
+# 11655 "C-STUBS/__polyspace__stdstubs.c"
+
+# 11688 "C-STUBS/__polyspace__stdstubs.c"
+
+# 11721 "C-STUBS/__polyspace__stdstubs.c"
+
+# 11754 "C-STUBS/__polyspace__stdstubs.c"
+
+# 11786 "C-STUBS/__polyspace__stdstubs.c"
+
+# 11835 "C-STUBS/__polyspace__stdstubs.c"
+
+# 11886 "C-STUBS/__polyspace__stdstubs.c"
+
+# 11919 "C-STUBS/__polyspace__stdstubs.c"
+
+# 11963 "C-STUBS/__polyspace__stdstubs.c"
+
+# 12048 "C-STUBS/__polyspace__stdstubs.c"
+
+# 12106 "C-STUBS/__polyspace__stdstubs.c"
+
+# 12174 "C-STUBS/__polyspace__stdstubs.c"
+
+# 12208 "C-STUBS/__polyspace__stdstubs.c"
+
+# 12242 "C-STUBS/__polyspace__stdstubs.c"
+
+# 12276 "C-STUBS/__polyspace__stdstubs.c"
+
+
+# 12314 "C-STUBS/__polyspace__stdstubs.c"
+
+# 12355 "C-STUBS/__polyspace__stdstubs.c"
+
+# 12406 "C-STUBS/__polyspace__stdstubs.c"
+
+# 12437 "C-STUBS/__polyspace__stdstubs.c"
+
+# 12484 "C-STUBS/__polyspace__stdstubs.c"
+
+# 12517 "C-STUBS/__polyspace__stdstubs.c"
+
+# 12583 "C-STUBS/__polyspace__stdstubs.c"
+
+# 12638 "C-STUBS/__polyspace__stdstubs.c"
+
+    /*********************************************************************** fcntl.h */
+# 12703 "C-STUBS/__polyspace__stdstubs.c"
+
+# 12756 "C-STUBS/__polyspace__stdstubs.c"
+
+    /* C++/5930 : sigsetjmp nust be recognized on all mode */
+# 12799 "C-STUBS/__polyspace__stdstubs.c"
+
+    /* C++/5930 : sigsetjmp nust be recognized on all mode */
+# 12866 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+
+
+
+    /* C++/5930 : siglongjmp must be recognized in all mode */
+# 12924 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+    /*
+     * FD_ISSET macro defined as function (see macros_to_deactivate.txt)
+     * The 2nd argument is defined with 'void *' instead of 'fd_set *'
+     * which needs including non-ANSI C specified file <sys/time.h> (in
+     * fact, the conversion from 'fd_set *' to 'void *' is implicite for
+     * all calls to FD_ISSET).
+     */
+# 12961 "C-STUBS/__polyspace__stdstubs.c"
+
+# 12996 "C-STUBS/__polyspace__stdstubs.c"
+
+# 13024 "C-STUBS/__polyspace__stdstubs.c"
+
+# 13059 "C-STUBS/__polyspace__stdstubs.c"
+
+    /*********************************************************************** signal.h */
+
+    /*
+     * signal(SIG, FUNC) may store FUNC and return it later
+     */
+
+# 13081 "C-STUBS/__polyspace__stdstubs.c"
+
+# 13173 "C-STUBS/__polyspace__stdstubs.c"
+
+# 13224 "C-STUBS/__polyspace__stdstubs.c"
+
+    /* Specific stubs for VxWorks */
+# 13250 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+
+    /* Include non standard stubs (only with -DPOLYSPACE_NON_STANDARD_STUBS) */
+
+
+
+
+
+
+    /* Verifier does not allow tasks and main to be called.
+       So such calls will be replaced by calls to polyspace_fake_main and polyspace_fake_task. Both are pure functions.
+     */
+#pragma POLYSPACE_PURE polyspace_fake_main
+#pragma POLYSPACE_PURE polyspace_fake_task
+
+
+# 13289 "C-STUBS/__polyspace__stdstubs.c"
+
+    /****************************************************************************
+     ****************************************************************************
+     ********  VARIABLES STUBS
+     ****************************************************************************
+     ****************************************************************************/
+
+
+
+    /****************************************************************************
+    *  STANDARD LIBRARIES - OS-TARGET LINUX
+    ****************************************************************************/
+# 13808 "C-STUBS/__polyspace__stdstubs.c"
+
+    /*********************************************************************************
+    *  STANDARD LIBRARIES - FOR ALL OS-TARGET with non-macro based stdin/stdout/stderr
+    ***********************************************************************************/
+
+
+# 13826 "C-STUBS/__polyspace__stdstubs.c"
+
+
+
+
+
+
+
+                /*      extern FILE __pst__stdout; */
+                /*      FILE* stdout = &__pst__stdout; */
+                extern FILE* stdout;
+
+
+
+
+
+
+
+
+
+
+
+                /*      FILE __pst__stderr; */
+                /*      FILE* stderr = &__pst__stderr; */
+                extern FILE* stderr;
+
+
+
+
+
+
+
+    /****************************************************************************
+    *  /  STANDARD LIBRARIES VARIABLES STUBS
+    ****************************************************************************/
+
+
+
+
+    /* Definition of some global variables necessary for Polyspace */
+
+    /* Absolute addresses are modelized by an access to one variable */
+    /* We need it in c mode and also in cpp bf mode*/
+
+
+    char * volatile __polyspace_absolute_address; /* C/7355: do not redefine this 'char' */
+
+    /* Warning: do not put any 'char' below */
+
+
+    /* LocalWords:  iob DECL varargs KEIL IAR ctype errno informations stdarg
+     * LocalWords:  stdlib va incr decls SCHAR isalnum IEC UCHAR isalpha iscntrl
+     * LocalWords:  isdigit isgraph islower isblank isprint ispunct isupper isxdigit
+     * LocalWords:  tolower toupper setlocale localeconv VXWORKS lconv frexp ldexp
+     * LocalWords:  modf iptr ized jmp buf FUNC sysv IGN DFL func tmpnam char's
+     * LocalWords:  setbuf setvbuf fflush Cie tmpfile freopen IOFBF BUFSIZ IONBF
+     * LocalWords:  IOLBF vfprintf vprintf vsprintf scanf fgetc fputc fputs getchar
+     * LocalWords:  filbuf putc putchar flsbuf ungetc nitems vxworks fgetpos
+     * LocalWords:  fsetpos clearerr perror fileno atof atoi strtod endptr ERANGE
+     * LocalWords:  strtol strtoul ULONG pst srand atexit bsearch nel compar numer
+     * LocalWords:  denom ldiv lldiv mblen mbtowc wchar pwc wctomb mbstowcs pwcs wcstombs
+     * LocalWords:  realloc memalign alloca valloc memmove strcpy strncpy strncat
+     * LocalWords:  memcmp strcoll strxfrm memchr strchr strpbrk strrchr strstr QNx
+     * LocalWords:  strcspn strspn strerror errnum difftime mktime timeptr tm
+     * LocalWords:  asctime ctime localtime gmtime strftime maxsize unistd fcntl
+     * LocalWords:  bzero bcopy bcmp bf
+     */

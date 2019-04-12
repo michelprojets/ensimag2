@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--EDRS Version 2.0-->
+<global>
+   <file name="/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/bio.h" comment="">
+      <function name="BIO_new_fp" comment="" line="638" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg2" comment="" line="638" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="BIO_printf" comment="" line="764" main_generator_called="disabled" attributes="extern">
+         <scalar name="return" comment="" line="764" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/ssl.h" comment="">
+      <function name="SSL_CTX_ctrl" comment="" line="1876" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg2" comment="" line="1876" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="arg3" comment="" line="1876" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="1876" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="SSL_connect" comment="" line="1870" main_generator_called="disabled" attributes="extern">
+         <scalar name="return" comment="" line="1870" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="SSL_library_init" comment="" line="1945" main_generator_called="disabled" attributes="extern">
+         <scalar name="return" comment="" line="1945" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="SSL_read" comment="" line="1871" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg3" comment="" line="1871" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="1871" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="SSL_set_fd" comment="" line="1718" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg2" comment="" line="1718" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="1718" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="SSL_write" comment="" line="1873" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg3" comment="" line="1873" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="1873" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/x509.h" comment="">
+      <function name="X509_NAME_print_ex" comment="" line="997" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg3" comment="" line="997" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="arg4" comment="" line="997" base_type="uint32" complete_type="uint32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="997" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/website_access/website_access.c" comment="">
+      <function name="DownloadURLFile" comment="" line="60" main_generator_called="MAIN_GENERATOR" attributes="static">
+         <scalar name="arg3" comment="" line="60" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="60" base_type="int32" attributes="static" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <array name="dest_url" comment="" line="300" complete_type="int8 [256]">
+         <scalar comment="" line="300" base_type="int8" complete_type="int8" init_mode="MAIN_GENERATOR" init_modes_allowed="15" init_range="" global_assert="NO" assert_range=""/>
+      </array>
+      <function name="hostname_to_ip" comment="" line="37" main_generator_called="MAIN_GENERATOR" attributes="static">
+         <scalar name="return" comment="" line="37" base_type="int32" attributes="static" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="main" comment="" line="302" main_generator_called="MAIN_GENERATOR">
+         <scalar name="arg1" comment="" line="302" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="302" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="url_to_host" comment="" line="262" main_generator_called="MAIN_GENERATOR" attributes="static">
+         <scalar name="arg3" comment="" line="262" base_type="int32" attributes="static" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="/opt/MATLAB/R2018a/polyspace/verifier/cxx/include/include-libc/arpa/inet.h" comment="">
+      <function name="inet_addr" comment="" line="34" main_generator_called="disabled" attributes="extern">
+         <scalar name="return" comment="" line="34" base_type="uint32" complete_type="uint32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="inet_ntoa" comment="" line="53" main_generator_called="disabled" attributes="extern">
+         <struct name="arg1" comment="" line="53" complete_type="struct in_addr">
+            <scalar name="s_addr" comment="" line="53" base_type="uint32" complete_type="uint32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         </struct>
+      </function>
+   </file>
+   <file name="/opt/MATLAB/R2018a/polyspace/verifier/cxx/include/include-libc/netinet/in.h" comment="">
+      <function name="htons" comment="" line="381" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg1" comment="" line="381" base_type="uint16" complete_type="uint16" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="381" base_type="uint16" complete_type="uint16" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="/opt/MATLAB/R2018a/polyspace/verifier/cxx/include/include-libc/stdio.h" comment="">
+      <function name="snprintf" comment="" line="388" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg2" comment="" line="388" base_type="uint32" complete_type="uint32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="388" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="/opt/MATLAB/R2018a/polyspace/verifier/cxx/include/include-libc/string.h" comment="">
+      <function name="memcpy" comment="" line="42" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg3" comment="" line="42" base_type="uint32" complete_type="uint32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="memset" comment="" line="62" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg2" comment="" line="62" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="arg3" comment="" line="62" base_type="uint32" complete_type="uint32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="/opt/MATLAB/R2018a/polyspace/verifier/cxx/include/include-libc/sys/socket.h" comment="">
+      <function name="connect" comment="" line="137" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg1" comment="" line="137" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="arg3" comment="" line="137" base_type="uint32" complete_type="uint32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="137" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="socket" comment="" line="113" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg1" comment="" line="113" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="arg2" comment="" line="113" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="arg3" comment="" line="113" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="113" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <function name="unchecked_assert" comment="" line="0" main_generator_called="disabled" attributes="extern">
+      <scalar name="arg1" comment="" line="0" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+   </function>
+</global>

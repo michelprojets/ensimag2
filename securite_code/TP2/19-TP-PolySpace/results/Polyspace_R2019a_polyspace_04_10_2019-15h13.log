@@ -1,0 +1,111 @@
+<polyspace-code-prover R2019a PID28696 PGID28696>
+
+Polyspace verification of polyspace project.
+Starting at 04/10/2019, 15h13.
+
+
+Warning: Results directory is full: /user/6/.base/yoeungm/home/ensimag_2/securite_code/TP2/19-TP-PolySpace/results
+
+Verifying sources compliance ...
+
+Options used with Verifier:
+-prog=polyspace
+-lang=C
+-target=i386
+-compiler=generic
+-polyspace-version=10.0 (R2019a)
+-author=yoeungm
+-verif-version=1.0
+-results-dir=/user/6/.base/yoeungm/home/ensimag_2/securite_code/TP2/19-TP-PolySpace/results
+-date=10/04/2019
+-to=pass2
+-O=-O2
+
+User:
+-stubbed-pointers-are-unsafe=true
+-main-generator=true
+
+
+Verifying host configuration:
+Number of cores:                4
+Processor type:                 x86_64
+Processor model:                Intel(R) Core(TM) i5-7500 CPU @ 3.40GHz
+Processor frequency:            1586 MHz
+Memory > 4 GB:                  31.19 GB
+Tmp space available in /tmp:    524 MB
+
+Remark: 4 core(s) detected. The verification creates 4 process(es).
+*** Configuration of the host :	OK
+
+Computer memory:
+              total        used        free      shared  buff/cache   available
+Mem:       32711664     1902912    27802780      271396     3005972    30114444
+Swap:       8388604           0     8388604
+
+CentOS Linux release 7.6.1810 (Core) 
+
+Type /user/6/.base/yoeungm/home/ensimag_2/securite_code/TP2/19-TP-PolySpace/results/kill-rte-kernel on host ensipc615 to halt Verifier process
+
+
+Checking license ...
+
+	Trial License -- for use to evaluate programs for possible purchase as an end-user only.
+
+
+License is OK
+
+
+Polyspace C verification
+Copyright 1999-2019 The MathWorks, Inc.
+All rights reserved.
+
+Starting at: Wed Apr 10 15:13:54 2019
+Host: Linux ensipc615 3.10.0-957.5.1.el7.x86_64 x86_64
+User: yoeungm
+**********************************************************
+***
+*** Verifying C sources
+***
+**********************************************************
+
+Verifying sources ...
+Verifying polynome.c (1/1)
+/user/6/.base/yoeungm/home/ensimag_2/securite_code/TP2/19-TP-PolySpace/Source-Etape1/polynome.c, line 32: error: identifier "INT_MAX" is undefined
+|      if (b*b < sqrt(INT_MAX){
+|                     ^
+
+/user/6/.base/yoeungm/home/ensimag_2/securite_code/TP2/19-TP-PolySpace/Source-Etape1/polynome.c, line 32: error: expected a ")"
+|      if (b*b < sqrt(INT_MAX){
+|                             ^
+
+/user/6/.base/yoeungm/home/ensimag_2/securite_code/TP2/19-TP-PolySpace/Source-Etape1/polynome.c, line 61: error: expected a statement
+|  }
+|  ^
+
+3 errors detected in the compilation of "polynome.c".
+/user/6/.base/yoeungm/home/ensimag_2/securite_code/TP2/19-TP-PolySpace/Source-Etape1/polynome.c: warning: Failed compilation.
+Global compilation phase...
+
+Packing compilation data
+done.
+
+**********************************************************
+***
+*** C sources verification done
+***
+**********************************************************
+Ending at: Wed Apr 10 15:13:56 2019
+User time for compilation: 00:00:01.16 (1.16real, 0.54u + 0.15s (0.01gc))
+
+
+-------------------------------------------------------------------
+---                                                             ---
+---  Verifier has detected compilation error(s) in the code.    ---
+---  Please correct them and launch the analysis again.         ---
+---                                                             ---
+-------------------------------------------------------------------
+
+
+Failure at: Wed Apr 10 15:13:56 2019
+Error: Exiting because of previous error
+User time for polyspace-code-prover: 00:00:01.49 (1.49real, 0.64u + 0.17s (0.01gc))

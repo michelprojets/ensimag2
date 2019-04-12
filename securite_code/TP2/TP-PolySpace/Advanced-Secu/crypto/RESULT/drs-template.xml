@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--EDRS Version 2.0-->
+<global>
+   <file name="/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/crypto/symmetric_cipher.c" comment="">
+      <function name="decrypt" comment="" line="199" main_generator_called="MAIN_GENERATOR">
+         <scalar name="arg2" comment="" line="199" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="199" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="encrypt" comment="" line="192" main_generator_called="MAIN_GENERATOR">
+         <scalar name="arg2" comment="" line="192" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="192" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="encrypt_decrypt" comment="" line="155" main_generator_called="MAIN_GENERATOR">
+         <scalar name="arg2" comment="" line="155" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="arg6" comment="" line="155" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="155" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="fatal_error" comment="" line="17" main_generator_called="MAIN_GENERATOR"/>
+      <function name="main" comment="" line="206" main_generator_called="MAIN_GENERATOR">
+         <scalar name="return" comment="" line="206" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="rc4_test" comment="" line="19" main_generator_called="MAIN_GENERATOR">
+         <scalar name="arg3" comment="" line="19" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="rc4_test_fix_1" comment="" line="40" main_generator_called="MAIN_GENERATOR">
+         <scalar name="arg3" comment="" line="40" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="rc4_test_fix_2" comment="" line="61" main_generator_called="MAIN_GENERATOR">
+         <scalar name="arg3" comment="" line="61" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="rc4_test_fix_3" comment="" line="82" main_generator_called="MAIN_GENERATOR">
+         <scalar name="arg3" comment="" line="82" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="rc4_test_fix_4" comment="" line="104" main_generator_called="MAIN_GENERATOR">
+         <scalar name="arg3" comment="" line="104" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="rc4_test_fix_5" comment="" line="129" main_generator_called="MAIN_GENERATOR">
+         <scalar name="arg3" comment="" line="129" base_type="int32" complete_type="int32" init_mode="MAIN_GENERATOR" init_modes_allowed="10" init_range="" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/bio.h" comment="">
+      <function name="BIO_dump_fp" comment="" line="710" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg3" comment="" line="710" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="710" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/evp.h" comment="">
+      <function name="EVP_CIPHER_CTX_cleanup" comment="" line="649" main_generator_called="disabled" attributes="extern">
+         <scalar name="return" comment="" line="649" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="EVP_CipherFinal" comment="" line="606" main_generator_called="disabled" attributes="extern">
+         <scalar name="return" comment="" line="606" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="EVP_CipherInit_ex" comment="" line="601" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg6" comment="" line="601" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="601" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+      <function name="EVP_CipherUpdate" comment="" line="604" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg5" comment="" line="604" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="604" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="/matieres/4MMACSS/TP-PolySpace/Advanced-Secu/include/openssl/rand.h" comment="">
+      <function name="RAND_bytes" comment="" line="102" main_generator_called="disabled" attributes="extern">
+         <scalar name="arg2" comment="" line="102" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+         <scalar name="return" comment="" line="102" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <file name="/opt/MATLAB/R2018a/polyspace/verifier/cxx/include/include-libc/unistd.h" comment="">
+      <function name="getpid" comment="" line="631" main_generator_called="disabled" attributes="extern">
+         <scalar name="return" comment="" line="631" base_type="int32" complete_type="int32" init_mode="PERMANENT" init_modes_allowed="4" init_range="min..max" global_assert="unsupported" assert_range="unsupported"/>
+      </function>
+   </file>
+   <function name="unchecked_assert" comment="" line="0" main_generator_called="disabled" attributes="extern">
+      <scalar name="arg1" comment="" line="0" base_type="int32" complete_type="int32" init_mode="disabled" init_range="disabled" global_assert="unsupported" assert_range="unsupported"/>
+   </function>
+</global>

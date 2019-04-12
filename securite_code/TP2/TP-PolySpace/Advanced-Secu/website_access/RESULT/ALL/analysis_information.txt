@@ -1,0 +1,2 @@
+Number of analyzed files: 1 / 1
+Number of analyzed functions: 5 / 5

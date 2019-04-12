@@ -1,0 +1,13 @@
+time_pst_inlined_5
+rand_pst_inlined_6
+time_pst_inlined_7
+rand_pst_inlined_8
+rand_pst_inlined_9
+strlen_pst_inlined_1
+printf_pst_inlined_2
+printf_pst_inlined_3
+printf_pst_inlined_4
+printf
+rand
+strlen
+time

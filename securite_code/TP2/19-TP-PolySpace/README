@@ -1,0 +1,74 @@
+SCRIPTS POUR LANCER LES OUTILS :
+
+lance-bug-finder.sh*
+
+    script pour lancer le Bug Finder sur une liste de fichiers
+
+lance-code-prover.sh*
+
+    script pour lancer le Code Prover sur une liste de fichiers
+
+
+CONSIGNES GENERALES : pour chaque exemple les consignes sont au début
+du fichier source.
+
+
+ETAPE 1 :  utilisation du code prover
+=====================================
+
+- lancer les exemples, comprendre les couleurs et les explications 
+
+- faire une version robuste de polynome.c (pas de orange, rouge ou gris)
+
+
+ETAPE 2 : Analyse de sécurité  : exemples TD
+=============================================
+
+- Comprendre les résultats avec bug-finder, trouver les vulnérabilités et la manière 
+de les exploiter.
+
+strcat-td.c
+strcat-td-solution.c
+
+- Comprendre les erreurs/dangers :
+Pointer-to-stack-variable-leaving-scope.c
+mem-corruption.c 
+
+- Exécuter, comprendre et corriger
+- optim-compil.c
+- malloc-0.c        
+
+Pour corriger on pourra s'aider du site :
+https://wiki.sei.cmu.edu/confluence/display/c/INT30-C.+Ensure+that+unsigned+integer+operations+do+not+wrap
+
+
+ETAPE 3 : Analyse de sécurité - IspasswordOK
+==============================================
+
+1) Regarder en détail la spécification de gets :
+      http://www.cplusplus.com/reference/cstdio/gets/
+
+2) Code gets.c : faire tourner le bug finder et comprendre les messages.
+
+3) Tester le programme et trouver une attaque.
+      Rappel : au terminal on peut encoder la fin de fichier par contrôle D
+
+4) Corriger le programme en prenant en compte les cas d'erreurs
+
+5)  On va maintenant remplacer l'appel gets par fgets.
+       Regarder en détail la spécification de fgets :
+       http://www.cplusplus.com/reference/cstdio/fgets/
+
+6) Proposer une version avec fgets ne contenant plus du tout de message de warning.
+
+
+
+ETAPE 4 :  Sécurité avancée
+===========================
+
+Comprendre et corriger les problèmes
+ 
+La fenêtre Event permet de suivre les causes d'une alerte 
+
+- crypto
+
