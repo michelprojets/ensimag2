@@ -1,0 +1,386 @@
+16-Apr-2019 14:30:23.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.11
+16-Apr-2019 14:30:23.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 10 2017 21:02:52 UTC
+16-Apr-2019 14:30:23.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.11.0
+16-Apr-2019 14:30:23.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Apr-2019 14:30:23.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-957.5.1.el7.x86_64
+16-Apr-2019 14:30:23.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Apr-2019 14:30:23.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_92/jre
+16-Apr-2019 14:30:23.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_92-b14
+16-Apr-2019 14:30:23.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Apr-2019 14:30:23.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+16-Apr-2019 14:30:23.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+16-Apr-2019 14:30:23.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/logging.properties
+16-Apr-2019 14:30:23.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Apr-2019 14:30:23.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|ensipc223
+16-Apr-2019 14:30:23.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Apr-2019 14:30:23.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Apr-2019 14:30:23.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+16-Apr-2019 14:30:23.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11
+16-Apr-2019 14:30:23.485 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/temp
+16-Apr-2019 14:30:23.485 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/latest/jre/lib/amd64:/usr/java/latest/jre/lib/i386:/usr/local/lib:/usr/lib64/nvidia:/usr/lib64/openmpi/lib:/usr/local/lib:/opt/rh/llvm-toolset-7/root/usr/lib64:/opt/rh/devtoolset-8/root/usr/lib64:/opt/rh/devtoolset-8/root/usr/lib:/opt/rh/devtoolset-8/root/usr/lib64/dyninst:/opt/rh/devtoolset-8/root/usr/lib/dyninst:/opt/rh/devtoolset-8/root/usr/lib64:/opt/rh/devtoolset-8/root/usr/lib:/usr/lib64/nvidia:/usr/lib64/openmpi/lib::/opt/oracle/lib:/opt/oracle:/usr/lib64/qt48/lib:/opt/oracle/lib:/opt/oracle:/usr/lib64/qt48/lib:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+16-Apr-2019 14:30:23.623 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Apr-2019 14:30:23.648 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Apr-2019 14:30:23.650 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Apr-2019 14:30:23.651 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Apr-2019 14:30:23.652 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 648 ms
+16-Apr-2019 14:30:23.685 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+16-Apr-2019 14:30:23.686 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.11
+16-Apr-2019 14:30:23.713 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/mavenproject1.xml
+16-Apr-2019 14:30:23.769 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 14:30:23.779 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mavenproject1]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:596)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1805)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@8246f6f]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4842)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4974)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [/user/6/.base/yoeungm/home/ensimag_2/web/mavenproject1/target/mavenproject1-1.0-SNAPSHOT] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:732)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:690)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+16-Apr-2019 14:30:23.781 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/mavenproject1.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mavenproject1]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:596)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1805)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Apr-2019 14:30:23.783 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/mavenproject1.xml has finished in 70 ms
+16-Apr-2019 14:30:23.783 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/mavenproject2.xml
+16-Apr-2019 14:30:23.810 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 14:30:23.817 SEVERE [localhost-startStop-1] org.apache.catalina.core.ContainerBase.addChildInternal ContainerBase.addChild: start: 
+ org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mavenproject2]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:596)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1805)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@f94c56a]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4842)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4974)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 10 more
+Caused by: java.lang.IllegalArgumentException: The main resource set specified [/user/6/.base/yoeungm/home/ensimag_2/web/acol_web/mavenproject2/target/mavenproject2-1.0-SNAPSHOT] is not valid
+	at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:732)
+	at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:690)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 more
+
+16-Apr-2019 14:30:23.817 SEVERE [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/mavenproject2.xml
+ java.lang.IllegalStateException: ContainerBase.addChild: start: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/mavenproject2]]
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:756)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:596)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1805)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Apr-2019 14:30:23.818 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/mavenproject2.xml has finished in 35 ms
+16-Apr-2019 14:30:23.818 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml
+16-Apr-2019 14:30:23.829 WARNING [localhost-startStop-1] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 14:30:24.586 SEVERE [localhost-startStop-1] org.apache.catalina.startup.ContextConfig.processResourceJARs Failed to process JAR found at URL [file:/user/6/.base/yoeungm/home/ensimag_2/web/acol_web/target/stories-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar] for static resources to be included in context with name [/stories]
+16-Apr-2019 14:30:24.667 WARNING [localhost-startStop-1] org.apache.tomcat.util.scan.StandardJarScanner.scan Failed to scan [file:/user/6/.base/yoeungm/home/ensimag_2/web/acol_web/target/stories-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar] from classloader hierarchy
+ java.io.FileNotFoundException: /user/6/.base/yoeungm/home/ensimag_2/web/acol_web/target/stories-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:60)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:48)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:338)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:288)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5178)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:752)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:728)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:596)
+	at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1805)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+16-Apr-2019 14:30:24.672 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Apr-2019 14:30:24.801 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml has finished in 983 ms
+16-Apr-2019 14:30:24.814 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/host-manager
+16-Apr-2019 14:30:25.093 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Apr-2019 14:30:25.100 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/host-manager has finished in 286 ms
+16-Apr-2019 14:30:25.101 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/examples
+16-Apr-2019 14:30:27.313 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Apr-2019 14:30:27.344 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/examples has finished in 2,243 ms
+16-Apr-2019 14:30:27.344 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/manager
+16-Apr-2019 14:30:27.606 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Apr-2019 14:30:27.617 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/manager has finished in 273 ms
+16-Apr-2019 14:30:27.617 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/docs
+16-Apr-2019 14:30:27.936 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Apr-2019 14:30:27.939 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/docs has finished in 322 ms
+16-Apr-2019 14:30:27.939 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/ROOT
+16-Apr-2019 14:30:28.120 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Apr-2019 14:30:28.123 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/webapps/ROOT has finished in 184 ms
+16-Apr-2019 14:30:28.127 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+16-Apr-2019 14:30:28.130 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+16-Apr-2019 14:30:28.150 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4497 ms
+16-Apr-2019 14:30:32.214 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/stories]
+16-Apr-2019 14:30:32.282 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml
+16-Apr-2019 14:30:32.286 WARNING [http-nio-8080-exec-5] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 14:30:32.464 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml has finished in 181 ms
+16-Apr-2019 14:30:32.470 INFO [http-nio-8080-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/stories]] after start() had already been called. The second call will be ignored.
+16-Apr-2019 14:30:42.898 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/stories]
+16-Apr-2019 14:32:28.167 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml
+16-Apr-2019 14:32:28.176 WARNING [http-nio-8080-exec-15] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 14:32:28.468 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml has finished in 301 ms
+16-Apr-2019 14:32:28.494 INFO [http-nio-8080-exec-16] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/stories]] after start() had already been called. The second call will be ignored.
+16-Apr-2019 15:34:30.243 INFO [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:34:30.249 WARNING [http-nio-8080-exec-19] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [stories] appears to have started a thread named [oracle.jdbc.driver.BlockSource.ThreadedCachingBlockSource.BlockReleaser] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Object.wait(Native Method)
+ oracle.jdbc.driver.BlockSource$ThreadedCachingBlockSource$BlockReleaser.run(BlockSource.java:327)
+16-Apr-2019 15:34:30.633 INFO [http-nio-8080-exec-19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:34:59.295 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:34:59.532 INFO [http-nio-8080-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:35:08.253 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:35:08.460 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:37:39.321 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:37:39.603 INFO [http-nio-8080-exec-21] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:39:37.422 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:39:37.680 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:40:04.786 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:40:04.977 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:40:07.465 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:40:07.680 INFO [http-nio-8080-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:40:15.906 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:40:16.119 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:40:18.534 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:40:18.734 INFO [http-nio-8080-exec-36] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:40:20.893 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:40:21.146 INFO [http-nio-8080-exec-39] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:40:33.005 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:40:33.190 INFO [http-nio-8080-exec-41] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:40:35.953 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:40:36.157 INFO [http-nio-8080-exec-32] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:42:33.252 INFO [http-nio-8080-exec-27] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/stories]
+16-Apr-2019 15:42:58.005 INFO [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml
+16-Apr-2019 15:42:58.010 WARNING [http-nio-8080-exec-51] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 15:42:58.199 INFO [http-nio-8080-exec-51] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml has finished in 193 ms
+16-Apr-2019 15:42:58.202 INFO [http-nio-8080-exec-39] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/stories]] after start() had already been called. The second call will be ignored.
+16-Apr-2019 15:44:58.406 INFO [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:44:58.630 INFO [http-nio-8080-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:46:54.044 INFO [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:46:54.269 INFO [http-nio-8080-exec-67] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:46:54.849 INFO [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:46:55.038 INFO [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:46:55.190 INFO [http-nio-8080-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:46:55.391 INFO [http-nio-8080-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:48:39.991 INFO [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:48:40.278 INFO [http-nio-8080-exec-64] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:49:10.979 INFO [http-nio-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:49:11.207 INFO [http-nio-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:53:13.534 INFO [http-nio-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:53:13.801 INFO [http-nio-8080-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:54:53.466 INFO [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:54:53.664 INFO [http-nio-8080-exec-84] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:55:10.233 INFO [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:55:10.423 INFO [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:55:24.462 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:55:24.652 INFO [http-nio-8080-exec-77] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:56:12.722 INFO [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:56:12.910 INFO [http-nio-8080-exec-71] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:56:16.232 INFO [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:56:16.423 INFO [http-nio-8080-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:56:45.145 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:56:45.377 INFO [http-nio-8080-exec-90] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:57:28.706 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:57:28.894 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 15:57:54.176 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 15:57:54.365 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:01:20.635 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:01:20.910 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:01:39.760 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:01:39.959 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:01:41.281 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:01:41.488 INFO [http-nio-8080-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:01:50.512 INFO [http-nio-8080-exec-107] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:01:50.723 INFO [http-nio-8080-exec-107] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:02:01.984 INFO [http-nio-8080-exec-100] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:02:02.187 INFO [http-nio-8080-exec-100] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:02:12.002 INFO [http-nio-8080-exec-108] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:02:12.212 INFO [http-nio-8080-exec-108] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:02:27.862 INFO [http-nio-8080-exec-110] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:02:28.067 INFO [http-nio-8080-exec-110] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:02:31.421 INFO [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:02:31.630 INFO [http-nio-8080-exec-86] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:02:39.136 INFO [http-nio-8080-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:02:39.345 INFO [http-nio-8080-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:09:57.484 INFO [http-nio-8080-exec-124] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:09:57.717 INFO [http-nio-8080-exec-124] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:10:13.499 INFO [http-nio-8080-exec-128] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:10:13.712 INFO [http-nio-8080-exec-128] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:10:19.550 INFO [http-nio-8080-exec-118] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:10:19.749 INFO [http-nio-8080-exec-118] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:10:32.147 INFO [http-nio-8080-exec-117] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:10:32.335 INFO [http-nio-8080-exec-117] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:10:51.276 INFO [http-nio-8080-exec-123] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:10:51.467 INFO [http-nio-8080-exec-123] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:10:54.368 INFO [http-nio-8080-exec-123] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:10:54.568 INFO [http-nio-8080-exec-123] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:11:02.556 INFO [http-nio-8080-exec-127] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:11:02.790 INFO [http-nio-8080-exec-127] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:11:37.946 INFO [http-nio-8080-exec-136] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:11:38.145 INFO [http-nio-8080-exec-136] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:11:46.140 INFO [http-nio-8080-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:11:46.356 INFO [http-nio-8080-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:12:57.539 INFO [http-nio-8080-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:12:57.756 INFO [http-nio-8080-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:14:05.391 INFO [http-nio-8080-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:14:05.618 INFO [http-nio-8080-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:14:09.660 INFO [http-nio-8080-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:14:09.849 INFO [http-nio-8080-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:14:30.859 INFO [http-nio-8080-exec-141] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:14:31.053 INFO [http-nio-8080-exec-141] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:14:50.608 INFO [http-nio-8080-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:14:50.827 INFO [http-nio-8080-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:15:15.757 INFO [http-nio-8080-exec-141] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:15:15.948 INFO [http-nio-8080-exec-141] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:15:24.231 INFO [http-nio-8080-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:15:24.448 INFO [http-nio-8080-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:15:39.721 INFO [http-nio-8080-exec-149] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:15:39.907 INFO [http-nio-8080-exec-149] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:15:51.599 INFO [http-nio-8080-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:15:51.811 INFO [http-nio-8080-exec-140] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:16:13.883 INFO [http-nio-8080-exec-157] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:16:14.089 INFO [http-nio-8080-exec-157] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:16:16.931 INFO [http-nio-8080-exec-137] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:16:17.137 INFO [http-nio-8080-exec-137] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:38:24.226 INFO [http-nio-8080-exec-170] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:38:24.463 INFO [http-nio-8080-exec-170] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:38:30.129 INFO [http-nio-8080-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:38:30.339 INFO [http-nio-8080-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:38:39.405 INFO [http-nio-8080-exec-169] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:38:39.594 INFO [http-nio-8080-exec-169] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:38:46.561 INFO [http-nio-8080-exec-174] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:38:46.750 INFO [http-nio-8080-exec-174] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:38:54.662 INFO [http-nio-8080-exec-169] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:38:54.875 INFO [http-nio-8080-exec-169] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 16:44:19.782 INFO [http-nio-8080-exec-184] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/stories]
+16-Apr-2019 16:55:50.403 INFO [http-nio-8080-exec-195] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml
+16-Apr-2019 16:55:50.406 WARNING [http-nio-8080-exec-195] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 16:55:50.603 INFO [http-nio-8080-exec-195] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml has finished in 201 ms
+16-Apr-2019 16:55:50.606 INFO [http-nio-8080-exec-189] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/stories]] after start() had already been called. The second call will be ignored.
+16-Apr-2019 16:57:34.946 INFO [http-nio-8080-exec-190] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/stories]
+16-Apr-2019 16:57:42.954 INFO [http-nio-8080-exec-194] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml
+16-Apr-2019 16:57:42.957 WARNING [http-nio-8080-exec-194] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 16:57:43.142 INFO [http-nio-8080-exec-194] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml has finished in 187 ms
+16-Apr-2019 16:57:43.144 INFO [http-nio-8080-exec-189] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/stories]] after start() had already been called. The second call will be ignored.
+16-Apr-2019 16:59:14.638 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 16:59:14.890 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 17:01:42.592 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 17:01:42.816 INFO [http-nio-8080-exec-196] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 17:01:45.107 INFO [http-nio-8080-exec-204] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 17:01:45.336 INFO [http-nio-8080-exec-204] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 17:02:08.908 INFO [http-nio-8080-exec-210] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 17:02:09.117 INFO [http-nio-8080-exec-210] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 17:02:11.353 INFO [http-nio-8080-exec-210] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/stories]
+16-Apr-2019 17:03:00.034 INFO [http-nio-8080-exec-213] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml
+16-Apr-2019 17:03:00.037 WARNING [http-nio-8080-exec-213] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 17:03:00.221 INFO [http-nio-8080-exec-213] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml has finished in 186 ms
+16-Apr-2019 17:03:00.223 INFO [http-nio-8080-exec-211] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/stories]] after start() had already been called. The second call will be ignored.
+16-Apr-2019 17:04:44.028 INFO [http-nio-8080-exec-212] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 17:04:44.234 INFO [http-nio-8080-exec-212] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 17:05:50.159 INFO [http-nio-8080-exec-217] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 17:05:50.381 INFO [http-nio-8080-exec-217] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 17:07:32.055 INFO [http-nio-8080-exec-220] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 17:07:32.281 INFO [http-nio-8080-exec-220] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 17:07:58.459 INFO [http-nio-8080-exec-228] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 17:07:58.646 INFO [http-nio-8080-exec-228] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 17:08:25.236 INFO [http-nio-8080-exec-213] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 17:08:25.422 INFO [http-nio-8080-exec-213] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 17:08:33.319 INFO [http-nio-8080-exec-230] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 17:08:33.536 INFO [http-nio-8080-exec-230] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 17:08:56.544 INFO [http-nio-8080-exec-233] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 17:08:56.758 INFO [http-nio-8080-exec-233] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 17:09:06.591 INFO [http-nio-8080-exec-231] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 17:09:06.793 INFO [http-nio-8080-exec-231] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 17:09:07.716 INFO [http-nio-8080-exec-230] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/stories]
+16-Apr-2019 17:09:13.895 INFO [http-nio-8080-exec-226] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml
+16-Apr-2019 17:09:13.898 WARNING [http-nio-8080-exec-226] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 17:09:14.086 INFO [http-nio-8080-exec-226] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml has finished in 191 ms
+16-Apr-2019 17:09:14.088 INFO [http-nio-8080-exec-212] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/stories]] after start() had already been called. The second call will be ignored.
+16-Apr-2019 17:12:41.462 INFO [http-nio-8080-exec-234] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/stories]
+16-Apr-2019 17:13:38.233 INFO [http-nio-8080-exec-237] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml
+16-Apr-2019 17:13:38.236 WARNING [http-nio-8080-exec-237] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 17:13:38.421 INFO [http-nio-8080-exec-237] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml has finished in 189 ms
+16-Apr-2019 17:13:38.424 INFO [http-nio-8080-exec-212] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/stories]] after start() had already been called. The second call will be ignored.
+16-Apr-2019 17:14:47.096 INFO [http-nio-8080-exec-243] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/stories]
+16-Apr-2019 17:14:53.553 INFO [http-nio-8080-exec-250] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml
+16-Apr-2019 17:14:53.556 WARNING [http-nio-8080-exec-250] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 17:14:53.744 INFO [http-nio-8080-exec-250] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml has finished in 191 ms
+16-Apr-2019 17:14:53.747 INFO [http-nio-8080-exec-245] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/stories]] after start() had already been called. The second call will be ignored.
+16-Apr-2019 17:16:18.359 INFO [http-nio-8080-exec-258] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/stories]
+16-Apr-2019 17:16:24.725 INFO [http-nio-8080-exec-260] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml
+16-Apr-2019 17:16:24.728 WARNING [http-nio-8080-exec-260] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 17:16:24.914 INFO [http-nio-8080-exec-260] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml has finished in 189 ms
+16-Apr-2019 17:16:24.919 INFO [http-nio-8080-exec-262] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/stories]] after start() had already been called. The second call will be ignored.
+16-Apr-2019 17:19:47.429 INFO [http-nio-8080-exec-267] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/stories]
+16-Apr-2019 17:19:54.361 INFO [http-nio-8080-exec-268] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml
+16-Apr-2019 17:19:54.364 WARNING [http-nio-8080-exec-268] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 17:19:54.549 INFO [http-nio-8080-exec-268] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml has finished in 187 ms
+16-Apr-2019 17:19:54.551 INFO [http-nio-8080-exec-264] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/stories]] after start() had already been called. The second call will be ignored.
+16-Apr-2019 17:20:28.252 INFO [http-nio-8080-exec-269] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/stories]
+16-Apr-2019 17:20:34.972 INFO [http-nio-8080-exec-275] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml
+16-Apr-2019 17:20:34.975 WARNING [http-nio-8080-exec-275] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 17:20:35.165 INFO [http-nio-8080-exec-275] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml has finished in 193 ms
+16-Apr-2019 17:20:35.168 INFO [http-nio-8080-exec-269] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/stories]] after start() had already been called. The second call will be ignored.
+16-Apr-2019 17:23:22.038 INFO [http-nio-8080-exec-288] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 17:23:22.274 INFO [http-nio-8080-exec-288] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 17:23:23.196 INFO [http-nio-8080-exec-284] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/stories]
+16-Apr-2019 17:23:29.760 INFO [http-nio-8080-exec-285] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml
+16-Apr-2019 17:23:29.766 WARNING [http-nio-8080-exec-285] org.apache.catalina.startup.SetContextPropertiesRule.begin [SetContextPropertiesRule]{Context} Setting property 'antiJARLocking' to 'true' did not find a matching property.
+16-Apr-2019 17:23:29.953 INFO [http-nio-8080-exec-285] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor /user/6/.base/yoeungm/home/ensimag_2/web/apache-tomcat-8.5.11/conf/Catalina/localhost/stories.xml has finished in 193 ms
+16-Apr-2019 17:23:29.956 INFO [http-nio-8080-exec-283] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/stories]] after start() had already been called. The second call will be ignored.
+16-Apr-2019 17:24:08.779 INFO [http-nio-8080-exec-294] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 17:24:08.992 INFO [http-nio-8080-exec-294] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 17:24:13.647 INFO [http-nio-8080-exec-292] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] has started
+16-Apr-2019 17:24:13.859 INFO [http-nio-8080-exec-292] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/stories] is completed
+16-Apr-2019 17:29:36.683 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Apr-2019 17:29:36.735 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+16-Apr-2019 17:29:36.786 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+16-Apr-2019 17:29:36.815 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Apr-2019 17:29:36.816 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+16-Apr-2019 17:29:36.817 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Apr-2019 17:29:36.817 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
